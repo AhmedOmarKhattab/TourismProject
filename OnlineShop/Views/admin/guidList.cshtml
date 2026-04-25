@@ -1,0 +1,39 @@
+﻿@model IEnumerable<OnlineShop.Models.guid>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<table class="table" border="6" dir="rtl">
+    <tr>
+        <th>
+            اسم المرشد
+        </th>
+        <th>
+            الصورة
+        </th>
+        <th>
+            اللغات
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            <img src="@Url.Content(item.image)" alt="Age Of Wisdom Tan Graphic Tee" title="" width="47" height="47">
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.language)
+        </td>
+        <td>
+            @Html.ActionLink("حذف المرشد", "Deleteguid", new { idguid=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

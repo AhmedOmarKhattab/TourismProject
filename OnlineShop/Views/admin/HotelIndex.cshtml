@@ -1,0 +1,47 @@
+﻿@model IEnumerable<OnlineShop.Models.Hotel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="d-flex justify-content-between align-items-center mb-3" dir="rtl">
+    <h3>قائمة الفنادق</h3>
+
+    <a asp-action="CreateHotel" class="btn btn-success">
+        + إضافة فندق
+    </a>
+</div>
+
+<table class="table" border="2" dir="rtl">
+    <tr>
+        <th>اسم الفندق</th>
+        <th>الوصف</th>
+        <th>الصورة</th>
+        <th>السعر</th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            
+            <td>
+                <img src="~/files/images/@item.ImageUrl" width="70" height="70" alt="Hotel Image" />
+            </td>
+
+            <td>
+                @Html.ActionLink("حذف الفندق", "DeleteHotel", new { id = item.Id })
+            </td>
+        </tr>
+    }
+</table>

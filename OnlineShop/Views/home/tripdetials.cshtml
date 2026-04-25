@@ -1,0 +1,547 @@
+﻿@model OnlineShop.Models.allproject
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+@section head {
+    <style>
+        .trip-details-page {
+            padding-top: 80px;
+            min-height: 100vh;
+            background: var(--navy);
+        }
+
+        /* ── HERO IMAGE ── */
+        .trip-hero {
+            position: relative;
+            height: 480px;
+            overflow: hidden;
+        }
+
+            .trip-hero img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                transition: transform 8s ease;
+            }
+
+            .trip-hero:hover img {
+                transform: scale(1.04);
+            }
+
+        .trip-hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient( to bottom, rgba(10,22,40,0.3) 0%, rgba(10,22,40,0.15) 40%, rgba(10,22,40,0.85) 100% );
+        }
+
+        .trip-hero-content {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            padding: 40px 60px;
+        }
+
+        .trip-hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            background: rgba(201,168,76,0.9);
+            color: var(--navy);
+            font-size: 0.74rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            padding: 5px 14px;
+            border-radius: 50px;
+            margin-bottom: 14px;
+        }
+
+        .trip-hero-title {
+            font-size: 2.6rem;
+            font-weight: 900;
+            color: var(--white);
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+            .trip-hero-title span {
+                color: var(--gold-light);
+            }
+
+        .trip-breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.82rem;
+            color: rgba(240,234,214,0.65);
+        }
+
+            .trip-breadcrumb a {
+                color: var(--gold-light);
+                text-decoration: none;
+            }
+
+            .trip-breadcrumb i {
+                font-size: 0.62rem;
+            }
+
+        /* ── MAIN LAYOUT ── */
+        .trip-content-wrap {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 60px 100px;
+            display: grid;
+            grid-template-columns: 1fr 340px;
+            gap: 36px;
+            align-items: start;
+        }
+
+        /* ── INFO CARD ── */
+        .info-card {
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.12);
+            border-radius: 14px;
+            overflow: hidden;
+        }
+
+        .info-card-header {
+            padding: 22px 28px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+            .info-card-header i {
+                color: var(--gold);
+                font-size: 1rem;
+            }
+
+            .info-card-header h3 {
+                font-size: 1rem;
+                font-weight: 700;
+                color: var(--white);
+                margin: 0;
+            }
+
+        /* details grid */
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1px;
+            background: rgba(255,255,255,0.05);
+        }
+
+        .detail-item {
+            background: var(--navy-mid);
+            padding: 22px 26px;
+            transition: background 0.2s ease;
+        }
+
+            .detail-item:hover {
+                background: rgba(201,168,76,0.04);
+            }
+
+        .detail-item-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 8px;
+        }
+
+            .detail-item-label i {
+                font-size: 0.7rem;
+            }
+
+        .detail-item-value {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--white);
+            line-height: 1.4;
+        }
+
+            .detail-item-value.price {
+                font-size: 1.3rem;
+                color: var(--gold-light);
+            }
+
+        /* description */
+        .description-section {
+            padding: 28px;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+
+            .description-section h4 {
+                font-size: 0.9rem;
+                font-weight: 700;
+                color: var(--gold);
+                margin-bottom: 14px;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                font-size: 0.72rem;
+            }
+
+            .description-section p {
+                font-size: 0.93rem;
+                color: rgba(240,234,214,0.75);
+                line-height: 2;
+                text-align: right;
+            }
+
+        /* ── BOOKING SIDEBAR ── */
+        .booking-sidebar {
+            position: sticky;
+            top: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .booking-card {
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.2);
+            border-radius: 14px;
+            overflow: hidden;
+        }
+
+        .booking-card-top {
+            padding: 24px 26px;
+            background: linear-gradient(135deg, rgba(201,168,76,0.1) 0%, transparent 100%);
+            border-bottom: 1px solid rgba(201,168,76,0.12);
+            text-align: center;
+        }
+
+        .price-display {
+            margin-bottom: 6px;
+        }
+
+        .price-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .price-amount {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--gold);
+            display: block;
+            line-height: 1;
+        }
+
+        .price-currency {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+            display: block;
+        }
+
+        .booking-card-body {
+            padding: 22px 26px;
+        }
+
+        .booking-summary-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            font-size: 0.86rem;
+        }
+
+            .booking-summary-row:last-of-type {
+                border-bottom: none;
+            }
+
+            .booking-summary-row .bsr-label {
+                color: var(--text-muted);
+                display: flex;
+                align-items: center;
+                gap: 7px;
+            }
+
+                .booking-summary-row .bsr-label i {
+                    color: var(--gold);
+                    font-size: 0.78rem;
+                    width: 14px;
+                }
+
+            .booking-summary-row .bsr-val {
+                color: var(--white);
+                font-weight: 600;
+                text-align: left;
+            }
+
+        .btn-book {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+            border: none;
+            border-radius: 9px;
+            color: var(--navy);
+            font-family: 'Cairo', sans-serif;
+            font-size: 1.05rem;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            margin-top: 20px;
+            letter-spacing: 0.5px;
+        }
+
+            .btn-book:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 14px 32px rgba(201,168,76,0.45);
+                color: var(--navy);
+                text-decoration: none;
+            }
+
+        /* trust badges */
+        .trust-badges {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.07);
+            border-radius: 8px;
+            padding: 11px 14px;
+            font-size: 0.82rem;
+            color: rgba(240,234,214,0.75);
+        }
+
+            .trust-badge i {
+                color: var(--gold);
+                font-size: 0.9rem;
+                flex-shrink: 0;
+            }
+
+        /* responsive */
+        @@media (max-width: 1024px) {
+            .trip-content-wrap {
+                grid-template-columns: 1fr;
+                padding: 36px 32px 80px;
+            }
+
+            .booking-sidebar {
+                position: static;
+            }
+
+            .trip-hero-content {
+                padding: 30px 32px;
+            }
+
+            .trip-hero-title {
+                font-size: 2rem;
+            }
+        }
+
+        @@media (max-width: 640px) {
+            .trip-hero {
+                height: 320px;
+            }
+
+            .trip-hero-title {
+                font-size: 1.6rem;
+            }
+
+            .trip-content-wrap {
+                padding: 24px 20px 60px;
+            }
+
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+}
+
+<div class="trip-details-page">
+
+    <!-- ── HERO ── -->
+    <div class="trip-hero">
+        <img src="~/files/SiteImages/@Model.image" alt="رحلة إلى @Model.tripplace">
+        <div class="trip-hero-overlay"></div>
+        <div class="trip-hero-content">
+            <div class="trip-hero-badge">
+                <i class="fas fa-plane"></i> رحلة سياحية
+            </div>
+            <h1 class="trip-hero-title">
+                رحلة إلى <span>@Model.tripplace</span>
+            </h1>
+            <div class="trip-breadcrumb">
+                <a href="../Home/Index?email=@Model.email">الرئيسية</a>
+                <i class="fas fa-chevron-left"></i>
+                <a href="../Home/alltrips?email=@Model.email">الرحلات</a>
+                <i class="fas fa-chevron-left"></i>
+                <span>@Model.tripplace</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── CONTENT ── -->
+    <div class="trip-content-wrap">
+
+        <!-- LEFT: Details -->
+        <div>
+            <div class="info-card">
+                <div class="info-card-header">
+                    <i class="fas fa-info-circle"></i>
+                    <h3>تفاصيل الرحلة</h3>
+                </div>
+
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <div class="detail-item-label">
+                            <i class="fas fa-map-marker-alt"></i> مدينة الإقلاع
+                        </div>
+                        <div class="detail-item-value">@Model.city</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-item-label">
+                            <i class="fas fa-flag"></i> الوجهة
+                        </div>
+                        <div class="detail-item-value">@Model.tripplace</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-item-label">
+                            <i class="fas fa-calendar-alt"></i> تاريخ الذهاب
+                        </div>
+                        <div class="detail-item-value">@Model.godate</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-item-label">
+                            <i class="fas fa-calendar-check"></i> تاريخ العودة
+                        </div>
+                        <div class="detail-item-value">@Model.comingdate</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-item-label">
+                            <i class="fas fa-bus"></i> طريقة السفر
+                        </div>
+                        <div class="detail-item-value">@Model.travelmethod</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-item-label">
+                            <i class="fas fa-clock"></i> موعد الإقلاع
+                        </div>
+                        <div class="detail-item-value">@Model.time</div>
+                    </div>
+                    <div class="detail-item" style="grid-column: 1 / -1;">
+                        <div class="detail-item-label">
+                            <i class="fas fa-tag"></i> سعر الرحلة
+                        </div>
+                        <div class="detail-item-value price">@Model.tiketprice جنيه</div>
+                    </div>
+                </div>
+
+                @if (!string.IsNullOrWhiteSpace(Model.traveldes))
+                {
+                    <div class="description-section">
+                        <h4><i class="fas fa-align-right"></i> وصف الرحلة</h4>
+                        <p>@Model.traveldes</p>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <!-- RIGHT: Booking Sidebar -->
+        <div class="booking-sidebar">
+
+            <div class="booking-card">
+                <div class="booking-card-top">
+                    <div class="price-display">
+                        <span class="price-label">سعر الرحلة للفرد</span>
+                        <span class="price-amount">@Model.tiketprice</span>
+                        <span class="price-currency">جنيه مصري</span>
+                    </div>
+                </div>
+
+                <div class="booking-card-body">
+                    <div class="booking-summary-row">
+                        <span class="bsr-label"><i class="fas fa-map-marker-alt"></i> من</span>
+                        <span class="bsr-val">@Model.city</span>
+                    </div>
+                    <div class="booking-summary-row">
+                        <span class="bsr-label"><i class="fas fa-flag"></i> إلى</span>
+                        <span class="bsr-val">@Model.tripplace</span>
+                    </div>
+                    <div class="booking-summary-row">
+                        <span class="bsr-label"><i class="fas fa-calendar-alt"></i> الذهاب</span>
+                        <span class="bsr-val">@Model.godate</span>
+                    </div>
+                    <div class="booking-summary-row">
+                        <span class="bsr-label"><i class="fas fa-calendar-check"></i> العودة</span>
+                        <span class="bsr-val">@Model.comingdate</span>
+                    </div>
+                    <div class="booking-summary-row">
+                        <span class="bsr-label"><i class="fas fa-bus"></i> وسيلة السفر</span>
+                        <span class="bsr-val">@Model.travelmethod</span>
+                    </div>
+                    <div class="booking-summary-row">
+                        <span class="bsr-label"><i class="fas fa-clock"></i> الإقلاع</span>
+                        <span class="bsr-val">@Model.time</span>
+                    </div>
+
+                    <a href="../Home/Hotels?tripid=@Model.Id&email=@Model.email" class="btn-book">
+                        <i class="fas fa-ticket-alt"></i>
+                        احجز هذه الرحلة الآن
+                    </a>
+                </div>
+            </div>
+
+            <div class="trust-badges">
+                <div class="trust-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>حجز آمن ومضمون بالكامل</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-headset"></i>
+                    <span>دعم فوري على مدار الساعة</span>
+                </div>
+                <div class="trust-badge">
+                    <i class="fas fa-undo"></i>
+                    <span>سياسة إلغاء مرنة وواضحة</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+    // Animate detail items on load
+    var items = document.querySelectorAll('.detail-item, .trust-badge');
+    items.forEach(function(el, i) {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(16px)';
+        el.style.transition = 'opacity 0.4s ease ' + (i * 0.06) + 's, transform 0.4s ease ' + (i * 0.06) + 's';
+        setTimeout(function() {
+            el.style.opacity = '1';
+            el.style.transform = 'translateY(0)';
+        }, 100);
+    });
+    </script>
+}

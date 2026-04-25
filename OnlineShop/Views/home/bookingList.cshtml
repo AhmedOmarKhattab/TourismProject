@@ -1,0 +1,1070 @@
+﻿@model OnlineShop.Models.allproject
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+@section head {
+    <style>
+        .bookings-page {
+            padding-top: 80px;
+            min-height: 100vh;
+            background: var(--navy);
+        }
+
+        /* ── BANNER ── */
+        .bookings-banner {
+            background: var(--navy-mid);
+            padding: 56px 0 46px;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 1px solid rgba(201,168,76,0.15);
+        }
+
+            .bookings-banner::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: radial-gradient(ellipse at 60% 50%, rgba(201,168,76,0.07) 0%, transparent 65%);
+            }
+
+        .bookings-banner-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 60px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .section-label {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+
+        .bookings-banner h1 {
+            font-size: 2.3rem;
+            font-weight: 900;
+            color: var(--white);
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+            .bookings-banner h1 span {
+                color: var(--gold-light);
+            }
+
+        .bookings-banner p {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+
+        .breadcrumb-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 16px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+            .breadcrumb-row a {
+                color: var(--gold);
+                text-decoration: none;
+            }
+
+            .breadcrumb-row i {
+                font-size: 0.62rem;
+            }
+
+        /* ── CONTENT ── */
+        .bookings-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 60px 100px;
+        }
+
+        /* ── EMPTY STATE ── */
+        .empty-bookings {
+            text-align: center;
+            padding: 90px 20px;
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.1);
+            border-radius: 16px;
+        }
+
+        .empty-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(201,168,76,0.08);
+            border: 1px solid rgba(201,168,76,0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 22px;
+            font-size: 2rem;
+            color: var(--gold);
+        }
+
+        .empty-bookings h2 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 12px;
+        }
+
+        .empty-bookings p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            max-width: 440px;
+            margin: 0 auto 30px;
+            line-height: 1.85;
+        }
+
+        .btn-gold {
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+            color: var(--navy);
+            border: none;
+            padding: 13px 32px;
+            border-radius: 8px;
+            font-family: 'Cairo', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s ease;
+        }
+
+            .btn-gold:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 10px 26px rgba(201,168,76,0.4);
+                color: var(--navy);
+                text-decoration: none;
+            }
+
+        /* ── BOOKINGS LIST ── */
+        .bookings-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 40px;
+        }
+
+        .booking-card {
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.1);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: border-color 0.25s ease, box-shadow 0.25s ease;
+            animation: slideIn 0.4s ease both;
+        }
+
+            .booking-card:hover {
+                border-color: rgba(201,168,76,0.28);
+                box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+            }
+
+        @@keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(16px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .booking-card-header {
+            padding: 16px 24px;
+            background: linear-gradient(90deg, rgba(201,168,76,0.07) 0%, transparent 100%);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .booking-id {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+            .booking-id i {
+                color: var(--gold);
+            }
+
+            .booking-id strong {
+                color: var(--gold-light);
+                font-size: 0.9rem;
+            }
+
+        .booking-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(52,211,153,0.12);
+            border: 1px solid rgba(52,211,153,0.25);
+            color: #6EE7B7;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            padding: 4px 12px;
+            border-radius: 50px;
+        }
+
+            .booking-status i {
+                font-size: 0.65rem;
+            }
+
+        .booking-card-body {
+            padding: 20px 24px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            align-items: center;
+        }
+
+        .booking-field-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+            .booking-field-label i {
+                font-size: 0.65rem;
+            }
+
+        .booking-field-value {
+            font-size: 0.92rem;
+            font-weight: 600;
+            color: var(--white);
+        }
+
+        .booking-card-footer {
+            padding: 14px 24px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .btn-cancel {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            background: rgba(239,68,68,0.08);
+            border: 1px solid rgba(239,68,68,0.25);
+            color: #FCA5A5;
+            font-family: 'Cairo', sans-serif;
+            font-size: 0.82rem;
+            font-weight: 600;
+            padding: 8px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.25s ease;
+        }
+
+            .btn-cancel:hover {
+                background: rgba(239,68,68,0.18);
+                border-color: rgba(239,68,68,0.5);
+                color: #FEE2E2;
+                text-decoration: none;
+            }
+
+        /* ── SECTION DIVIDER ── */
+        .section-sep {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin: 40px 0 32px;
+        }
+
+            .section-sep::before, .section-sep::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: rgba(255,255,255,0.07);
+            }
+
+        .section-sep-label {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--gold);
+            white-space: nowrap;
+        }
+
+        /* ── PAYMENT LAYOUT ── */
+        .payment-wrap {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 28px;
+            align-items: start;
+        }
+
+        /* payment card */
+        .payment-card {
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.15);
+            border-radius: 14px;
+            overflow: hidden;
+        }
+
+        .payment-card-header {
+            padding: 20px 28px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            background: linear-gradient(90deg, rgba(201,168,76,0.08) 0%, transparent 100%);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .payment-header-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(201,168,76,0.12);
+            border: 1px solid rgba(201,168,76,0.25);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gold);
+            font-size: 0.95rem;
+            flex-shrink: 0;
+        }
+
+        .payment-card-header h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--white);
+            margin: 0;
+        }
+
+        .payment-card-header p {
+            font-size: 0.76rem;
+            color: var(--text-muted);
+            margin: 2px 0 0;
+        }
+
+        /* card visual */
+        .card-visual {
+            margin: 26px 28px 0;
+            background: linear-gradient(135deg, var(--navy-light) 0%, #0D2137 100%);
+            border: 1px solid rgba(201,168,76,0.2);
+            border-radius: 14px;
+            padding: 22px 24px;
+            position: relative;
+            overflow: hidden;
+            height: 160px;
+        }
+
+            .card-visual::before {
+                content: '';
+                position: absolute;
+                top: -40px;
+                right: -40px;
+                width: 160px;
+                height: 160px;
+                border-radius: 50%;
+                background: rgba(201,168,76,0.07);
+            }
+
+            .card-visual::after {
+                content: '';
+                position: absolute;
+                bottom: -60px;
+                left: -20px;
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                background: rgba(201,168,76,0.05);
+            }
+
+        .card-chip {
+            width: 36px;
+            height: 26px;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+            border-radius: 5px;
+            margin-bottom: 22px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .card-number-display {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: rgba(255,255,255,0.7);
+            letter-spacing: 3px;
+            margin-bottom: 14px;
+            position: relative;
+            z-index: 1;
+            font-family: monospace;
+        }
+
+        .card-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            position: relative;
+            z-index: 1;
+        }
+
+        .card-bottom-label {
+            font-size: 0.64rem;
+            color: rgba(255,255,255,0.45);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 3px;
+        }
+
+        .card-bottom-val {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: rgba(255,255,255,0.8);
+        }
+
+        .card-logo {
+            font-size: 1.8rem;
+            color: var(--gold);
+            opacity: 0.7;
+        }
+
+        /* payment form body */
+        .payment-form-body {
+            padding: 22px 28px 28px;
+        }
+
+        .field-group {
+            margin-bottom: 16px;
+        }
+
+        .field-label {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: rgba(240,234,214,0.8);
+            margin-bottom: 7px;
+        }
+
+        .field-required {
+            color: var(--gold);
+            margin-right: 2px;
+        }
+
+        .field-wrap {
+            position: relative;
+        }
+
+            .field-wrap i {
+                position: absolute;
+                top: 50%;
+                right: 15px;
+                transform: translateY(-50%);
+                color: var(--text-muted);
+                font-size: 0.88rem;
+                pointer-events: none;
+                transition: color 0.2s ease;
+            }
+
+            .field-wrap input {
+                width: 100%;
+                background: rgba(255,255,255,0.04);
+                border: 1.5px solid rgba(255,255,255,0.1);
+                border-radius: 8px;
+                padding: 12px 44px 12px 14px;
+                color: var(--white);
+                font-family: 'Cairo', sans-serif;
+                font-size: 0.92rem;
+                transition: all 0.25s ease;
+                outline: none;
+                direction: rtl;
+            }
+
+                .field-wrap input::placeholder {
+                    color: var(--text-muted);
+                }
+
+                .field-wrap input:focus {
+                    border-color: var(--gold);
+                    background: rgba(201,168,76,0.05);
+                    box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+                }
+
+            .field-wrap:focus-within i {
+                color: var(--gold);
+            }
+
+        .fields-row-pay {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+        }
+
+        .btn-pay {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+            border: none;
+            border-radius: 9px;
+            color: var(--navy);
+            font-family: 'Cairo', sans-serif;
+            font-size: 1rem;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+            letter-spacing: 0.5px;
+        }
+
+            .btn-pay:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 14px 30px rgba(201,168,76,0.45);
+            }
+
+        /* payment sidebar */
+        .pay-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            position: sticky;
+            top: 100px;
+        }
+
+        .secure-card {
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.15);
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+            .secure-card h4 {
+                font-size: 0.82rem;
+                font-weight: 700;
+                color: var(--white);
+                margin-bottom: 14px;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+
+                .secure-card h4 i {
+                    color: var(--gold);
+                }
+
+        .secure-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.8rem;
+            color: rgba(240,234,214,0.7);
+            margin-bottom: 10px;
+        }
+
+            .secure-item i {
+                color: var(--gold);
+                font-size: 0.82rem;
+                flex-shrink: 0;
+            }
+
+        .accepted-cards {
+            background: var(--navy-mid);
+            border: 1px solid rgba(255,255,255,0.07);
+            border-radius: 12px;
+            padding: 18px 20px;
+        }
+
+            .accepted-cards h4 {
+                font-size: 0.78rem;
+                font-weight: 700;
+                color: var(--text-muted);
+                margin-bottom: 12px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+            }
+
+        .card-icons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .card-icon-badge {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 6px;
+            padding: 6px 12px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: rgba(240,234,214,0.6);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+            .card-icon-badge i {
+                font-size: 1rem;
+            }
+
+        .fa-cc-visa {
+            color: #1a56db;
+        }
+
+        .fa-cc-mastercard {
+            color: #eb001b;
+        }
+
+        .fa-cc-amex {
+            color: #007bc1;
+        }
+
+        /* success modal */
+        .success-modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(10,22,40,0.85);
+            backdrop-filter: blur(6px);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .success-modal-overlay.show {
+                display: flex;
+            }
+
+        .success-modal {
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.3);
+            border-radius: 16px;
+            padding: 50px 40px;
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+        }
+
+        @@keyframes popIn {
+            from {
+                opacity: 0;
+                transform: scale(0.85);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .success-icon {
+            width: 72px;
+            height: 72px;
+            background: rgba(52,211,153,0.12);
+            border: 2px solid rgba(52,211,153,0.4);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 1.8rem;
+            color: #6EE7B7;
+        }
+
+        .success-modal h3 {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 10px;
+        }
+
+        .success-modal p {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+            margin-bottom: 24px;
+        }
+
+        .btn-close-modal {
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            color: var(--navy);
+            border: none;
+            padding: 11px 30px;
+            border-radius: 8px;
+            font-family: 'Cairo', sans-serif;
+            font-weight: 700;
+            font-size: 0.92rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+            .btn-close-modal:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 20px rgba(201,168,76,0.4);
+            }
+
+        /* responsive */
+        @@media (max-width: 1024px) {
+            .payment-wrap {
+                grid-template-columns: 1fr;
+            }
+
+            .pay-sidebar {
+                position: static;
+            }
+
+            .bookings-content {
+                padding: 36px 32px 80px;
+            }
+
+            .bookings-banner-inner {
+                padding: 0 32px;
+            }
+        }
+
+        @@media (max-width: 768px) {
+            .booking-card-body {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .bookings-content {
+                padding: 24px 20px 60px;
+            }
+
+            .bookings-banner-inner {
+                padding: 0 20px;
+            }
+
+            .bookings-banner h1 {
+                font-size: 1.8rem;
+            }
+        }
+
+        @@media (max-width: 480px) {
+            .booking-card-body {
+                grid-template-columns: 1fr;
+                gap: 14px;
+            }
+
+            .fields-row-pay {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+}
+
+<div class="bookings-page">
+
+    <!-- ── BANNER ── -->
+    <div class="bookings-banner">
+        <div class="bookings-banner-inner">
+            <span class="section-label">حجوزاتي</span>
+            <h1>إدارة <span>حجوزاتك</span></h1>
+            <p>استعرض حجوزاتك الحالية وأكمل عملية الدفع بسهولة وأمان</p>
+            <div class="breadcrumb-row">
+                <a href="../Home/Index?email=@Model.email">الرئيسية</a>
+                <i class="fas fa-chevron-left"></i>
+                <span>حجوزاتي</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="bookings-content">
+
+        @if (Model.booklists == null || Model.booklists.Count == 0)
+        {
+            <!-- EMPTY STATE -->
+            <div class="empty-bookings">
+                <div class="empty-icon">
+                    <i class="fas fa-ticket-alt"></i>
+                </div>
+                <h2>لا توجد حجوزات بعد</h2>
+                <p>
+                    شركة بلو سكاى ترحب بكم — نتمنى أن خدماتنا تنال إعجابكم.
+                    ابدأ رحلتك الأولى معنا الآن!
+                </p>
+                <a href="../Home/alltrips?email=@Model.email" class="btn-gold">
+                    <i class="fas fa-search"></i> تصفح الرحلات المتاحة
+                </a>
+            </div>
+        }
+        else
+        {
+            <!-- BOOKINGS LIST -->
+            <div class="bookings-grid">
+                @foreach (var item in Model.booklists)
+                {
+                    <div class="booking-card">
+                        <div class="booking-card-header">
+                            <div class="booking-id">
+                                <i class="fas fa-hashtag"></i>
+                                رقم الرحلة: <strong>@item.tripid</strong>
+                            </div>
+                            <span class="booking-status">
+                                <i class="fas fa-circle"></i> مؤكد
+                            </span>
+                        </div>
+
+                        <div class="booking-card-body">
+                            <div>
+                                <div class="booking-field-label">
+                                    <i class="fas fa-user"></i> اسم المسافر
+                                </div>
+                                <div class="booking-field-value">@item.name</div>
+                            </div>
+                            <div>
+                                <div class="booking-field-label">
+                                    <i class="fas fa-phone"></i> رقم الهاتف
+                                </div>
+                                <div class="booking-field-value">@item.phone</div>
+                            </div>
+                            <div>
+                                <div class="booking-field-label">
+                                    <i class="fas fa-id-card"></i> الرقم القومي
+                                </div>
+                                <div class="booking-field-value">@item.idcard</div>
+                            </div>
+                            <div>
+                                <div class="booking-field-label">
+                                    <i class="fas fa-users"></i> عدد المسافرين
+                                </div>
+                                <div class="booking-field-value">@item.travelNo</div>
+                            </div>
+                        </div>
+
+                        <div class="booking-card-footer">
+                            <a href="~/Home/deletebooking?bookid=@item.Id&&email=@Model.email" class="btn-cancel"
+                               onclick="return confirm('هل أنت متأكد من إلغاء هذا الحجز؟')">
+                                <i class="fas fa-times-circle"></i> إلغاء الحجز
+                            </a>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <!-- PAYMENT DIVIDER -->
+            <div class="section-sep">
+                <div class="section-sep-label">
+                    <i class="fas fa-credit-card"></i> إتمام الدفع
+                </div>
+            </div>
+
+            <!-- PAYMENT SECTION -->
+            <div class="payment-wrap">
+
+                <!-- Payment Form -->
+                <div class="payment-card">
+                    <div class="payment-card-header">
+                        <div class="payment-header-icon">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                        <div>
+                            <h3>بيانات الدفع</h3>
+                            <p>الدفع الآمن عبر بطاقة الفيزا</p>
+                        </div>
+                    </div>
+
+                    <!-- Card Visual -->
+                    <div class="card-visual">
+                        <div class="card-chip"></div>
+                        <div class="card-number-display" id="cardNumberDisplay">
+                            •••• &nbsp; •••• &nbsp; •••• &nbsp; ••••
+                        </div>
+                        <div class="card-bottom">
+                            <div>
+                                <div class="card-bottom-label">تاريخ الانتهاء</div>
+                                <div class="card-bottom-val" id="cardExpDisplay">MM / YY</div>
+                            </div>
+                            <div class="card-logo">
+                                <i class="fab fa-cc-visa"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="payment-form-body">
+                        <form onsubmit="handlePayment(event)">
+
+                            <div class="field-group">
+                                <label class="field-label">
+                                    <span class="field-required">*</span> رقم البطاقة
+                                </label>
+                                <div class="field-wrap">
+                                    <input type="text" name="cardnum" id="cardNumberInput"
+                                           placeholder="0000 0000 0000 0000"
+                                           maxlength="19" required
+                                           oninput="formatCardNumber(this)">
+                                    <i class="fas fa-credit-card"></i>
+                                </div>
+                            </div>
+
+                            <div class="fields-row-pay">
+                                <div class="field-group">
+                                    <label class="field-label">
+                                        <span class="field-required">*</span> تاريخ الصلاحية
+                                    </label>
+                                    <div class="field-wrap">
+                                        <input type="text" name="expiry" id="expiryInput"
+                                               placeholder="MM / YY" maxlength="7" required
+                                               oninput="formatExpiry(this)">
+                                        <i class="fas fa-calendar-alt"></i>
+                                    </div>
+                                </div>
+                                <div class="field-group">
+                                    <label class="field-label">
+                                        <span class="field-required">*</span> رمز CVV
+                                    </label>
+                                    <div class="field-wrap">
+                                        <input type="password" name="cvv"
+                                               placeholder="•••" maxlength="4" required>
+                                        <i class="fas fa-lock"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="field-group">
+                                <label class="field-label">
+                                    <span class="field-required">*</span> البريد الإلكتروني
+                                </label>
+                                <div class="field-wrap">
+                                    <input type="email" name="payemail"
+                                           placeholder="example@email.com" required>
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn-pay">
+                                <i class="fas fa-lock"></i>
+                                تأكيد الدفع الآن
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div class="pay-sidebar">
+                    <div class="secure-card">
+                        <h4><i class="fas fa-shield-alt"></i> دفع آمن ومحمي</h4>
+                        <div class="secure-item">
+                            <i class="fas fa-lock"></i>
+                            <span>تشفير SSL بالكامل</span>
+                        </div>
+                        <div class="secure-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>بياناتك لن تُشارك مع أي طرف</span>
+                        </div>
+                        <div class="secure-item">
+                            <i class="fas fa-undo"></i>
+                            <span>استرداد مضمون عند الإلغاء</span>
+                        </div>
+                        <div class="secure-item">
+                            <i class="fas fa-headset"></i>
+                            <span>دعم فوري 24/7 عند أي مشكلة</span>
+                        </div>
+                    </div>
+
+                    <div class="accepted-cards">
+                        <h4>البطاقات المقبولة</h4>
+                        <div class="card-icons">
+                            <div class="card-icon-badge">
+                                <i class="fab fa-cc-visa"></i> Visa
+                            </div>
+                            <div class="card-icon-badge">
+                                <i class="fab fa-cc-mastercard"></i> Mastercard
+                            </div>
+                            <div class="card-icon-badge">
+                                <i class="fab fa-cc-amex"></i> Amex
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        }
+    </div>
+</div>
+
+<!-- ── SUCCESS MODAL ── -->
+<div class="success-modal-overlay" id="successModal">
+    <div class="success-modal">
+        <div class="success-icon">
+            <i class="fas fa-check"></i>
+        </div>
+        <h3>تم الدفع بنجاح!</h3>
+        <p>تم تأكيد دفعك وحجزك بنجاح. ستصلك رسالة تأكيد على بريدك الإلكتروني قريباً.</p>
+        <button class="btn-close-modal" onclick="closeModal()">
+            <i class="fas fa-home" style="margin-left:6px"></i> العودة للرئيسية
+        </button>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+    // Format card number with spaces
+    function formatCardNumber(input) {
+        var val = input.value.replace(/\D/g, '').substring(0, 16);
+        var formatted = val.match(/.{1,4}/g)?.join(' ') || val;
+        input.value = formatted;
+        // Update card visual
+        var display = document.getElementById('cardNumberDisplay');
+        if (display) {
+            var padded = val.padEnd(16, '•');
+            display.innerHTML =
+                padded.substring(0,4) + ' &nbsp; ' +
+                padded.substring(4,8) + ' &nbsp; ' +
+                padded.substring(8,12) + ' &nbsp; ' +
+                padded.substring(12,16);
+        }
+    }
+
+    // Format expiry MM / YY
+    function formatExpiry(input) {
+        var val = input.value.replace(/\D/g, '').substring(0, 4);
+        if (val.length >= 3) val = val.substring(0,2) + ' / ' + val.substring(2);
+        input.value = val;
+        var display = document.getElementById('cardExpDisplay');
+        if (display) display.textContent = input.value || 'MM / YY';
+    }
+
+    // Handle payment submit
+    function handlePayment(e) {
+        e.preventDefault();
+        document.getElementById('successModal').classList.add('show');
+    }
+
+    function closeModal() {
+        document.getElementById('successModal').classList.remove('show');
+        window.location.href = '../Home/Index?email=@Model.email';
+    }
+
+    // Stagger booking card animations
+    document.querySelectorAll('.booking-card').forEach(function(card, i) {
+        card.style.animationDelay = (i * 0.1) + 's';
+    });
+    </script>
+}

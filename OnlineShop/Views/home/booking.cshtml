@@ -1,0 +1,715 @@
+﻿@model OnlineShop.Models.allproject
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+@section head {
+    <style>
+        .booking-page {
+            padding-top: 80px;
+            min-height: 100vh;
+            background: var(--navy);
+        }
+
+        /* ── PAGE BANNER ── */
+        .booking-banner {
+            background: var(--navy-mid);
+            padding: 56px 0 46px;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 1px solid rgba(201,168,76,0.15);
+        }
+
+            .booking-banner::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: radial-gradient(ellipse at 30% 50%, rgba(201,168,76,0.07) 0%, transparent 65%);
+            }
+
+        .booking-banner-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 60px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .booking-banner .section-label {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+
+        .booking-banner h1 {
+            font-size: 2.4rem;
+            font-weight: 900;
+            color: var(--white);
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+            .booking-banner h1 span {
+                color: var(--gold-light);
+            }
+
+        .booking-banner p {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+        }
+
+        .breadcrumb-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 18px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+            .breadcrumb-row a {
+                color: var(--gold);
+                text-decoration: none;
+            }
+
+            .breadcrumb-row i {
+                font-size: 0.62rem;
+            }
+
+        /* ── MAIN LAYOUT ── */
+        .booking-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 60px 100px;
+            display: grid;
+            grid-template-columns: 1fr 320px;
+            gap: 32px;
+            align-items: start;
+        }
+
+        /* ── FORM CARD ── */
+        .form-card {
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.12);
+            border-radius: 14px;
+            overflow: hidden;
+        }
+
+        .form-card-header {
+            padding: 22px 30px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: linear-gradient(90deg, rgba(201,168,76,0.07) 0%, transparent 100%);
+        }
+
+        .form-card-header-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(201,168,76,0.12);
+            border: 1px solid rgba(201,168,76,0.25);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gold);
+            font-size: 0.95rem;
+            flex-shrink: 0;
+        }
+
+        .form-card-header h3 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--white);
+            margin: 0;
+        }
+
+        .form-card-header p {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin: 2px 0 0;
+        }
+
+        .form-card-body {
+            padding: 32px 30px;
+        }
+
+        /* step indicator */
+        .form-steps {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            margin-bottom: 34px;
+        }
+
+        .form-step {
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            flex: 1;
+        }
+
+        .step-dot {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.78rem;
+            font-weight: 800;
+            flex-shrink: 0;
+            border: 2px solid rgba(201,168,76,0.3);
+            color: var(--text-muted);
+            transition: all 0.3s ease;
+        }
+
+            .step-dot.active {
+                background: var(--gold);
+                border-color: var(--gold);
+                color: var(--navy);
+            }
+
+            .step-dot.done {
+                background: rgba(201,168,76,0.15);
+                border-color: var(--gold);
+                color: var(--gold);
+            }
+
+        .step-line {
+            flex: 1;
+            height: 1px;
+            background: rgba(201,168,76,0.2);
+            margin: 0 6px;
+        }
+
+        .step-text {
+            font-size: 0.74rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+        }
+
+        .form-step.active-step .step-text {
+            color: var(--gold-light);
+            font-weight: 600;
+        }
+
+        /* fields */
+        .fields-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+        }
+
+        .field-group {
+            margin-bottom: 18px;
+        }
+
+        .field-label {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: rgba(240,234,214,0.8);
+            margin-bottom: 7px;
+            letter-spacing: 0.3px;
+        }
+
+        .field-required {
+            color: var(--gold);
+            margin-right: 2px;
+        }
+
+        .field-wrap {
+            position: relative;
+        }
+
+            .field-wrap i {
+                position: absolute;
+                top: 50%;
+                right: 15px;
+                transform: translateY(-50%);
+                color: var(--text-muted);
+                font-size: 0.88rem;
+                pointer-events: none;
+                transition: color 0.2s ease;
+            }
+
+            .field-wrap input {
+                width: 100%;
+                background: rgba(255,255,255,0.04);
+                border: 1.5px solid rgba(255,255,255,0.1);
+                border-radius: 8px;
+                padding: 13px 44px 13px 14px;
+                color: var(--white);
+                font-family: 'Cairo', sans-serif;
+                font-size: 0.92rem;
+                transition: all 0.25s ease;
+                outline: none;
+                direction: rtl;
+            }
+
+                .field-wrap input::placeholder {
+                    color: var(--text-muted);
+                }
+
+                .field-wrap input:focus {
+                    border-color: var(--gold);
+                    background: rgba(201,168,76,0.05);
+                    box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+                }
+
+            .field-wrap:focus-within i {
+                color: var(--gold);
+            }
+
+        .field-hint {
+            font-size: 0.74rem;
+            color: var(--text-muted);
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+            .field-hint i {
+                color: rgba(201,168,76,0.5);
+                font-size: 0.68rem;
+            }
+
+        /* divider */
+        .form-divider {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin: 24px 0;
+        }
+
+            .form-divider::before, .form-divider::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: rgba(255,255,255,0.07);
+            }
+
+            .form-divider span {
+                font-size: 0.74rem;
+                color: var(--text-muted);
+                white-space: nowrap;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+            }
+
+            .form-divider i {
+                color: var(--gold);
+            }
+
+        /* submit */
+        .btn-submit {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+            border: none;
+            border-radius: 9px;
+            color: var(--navy);
+            font-family: 'Cairo', sans-serif;
+            font-size: 1.02rem;
+            font-weight: 800;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            letter-spacing: 0.5px;
+            margin-top: 8px;
+        }
+
+            .btn-submit:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 14px 32px rgba(201,168,76,0.45);
+            }
+
+        /* ── SIDEBAR ── */
+        .booking-sidebar {
+            position: sticky;
+            top: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .summary-card {
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.18);
+            border-radius: 14px;
+            overflow: hidden;
+        }
+
+        .summary-card-head {
+            padding: 18px 22px;
+            background: linear-gradient(135deg, rgba(201,168,76,0.1) 0%, transparent 100%);
+            border-bottom: 1px solid rgba(201,168,76,0.1);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+            .summary-card-head i {
+                color: var(--gold);
+            }
+
+            .summary-card-head h4 {
+                font-size: 0.88rem;
+                font-weight: 700;
+                color: var(--white);
+                margin: 0;
+            }
+
+        .summary-body {
+            padding: 18px 22px;
+        }
+
+        .summary-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 9px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            font-size: 0.84rem;
+            gap: 12px;
+        }
+
+            .summary-row:last-child {
+                border-bottom: none;
+            }
+
+            .summary-row .sr-label {
+                color: var(--text-muted);
+                display: flex;
+                align-items: center;
+                gap: 7px;
+                flex-shrink: 0;
+            }
+
+                .summary-row .sr-label i {
+                    color: var(--gold);
+                    font-size: 0.75rem;
+                    width: 13px;
+                }
+
+            .summary-row .sr-val {
+                color: var(--white);
+                font-weight: 600;
+                text-align: left;
+                font-size: 0.86rem;
+            }
+
+                .summary-row .sr-val.gold {
+                    color: var(--gold-light);
+                    font-size: 1rem;
+                    font-weight: 800;
+                }
+
+        /* trust */
+        .trust-card {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid rgba(255,255,255,0.07);
+            border-radius: 12px;
+            padding: 18px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .trust-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.8rem;
+            color: rgba(240,234,214,0.7);
+        }
+
+            .trust-item i {
+                color: var(--gold);
+                font-size: 0.88rem;
+                flex-shrink: 0;
+                width: 16px;
+            }
+
+        /* responsive */
+        @@media (max-width: 1024px) {
+            .booking-content {
+                grid-template-columns: 1fr;
+                padding: 36px 32px 80px;
+            }
+
+            .booking-sidebar {
+                position: static;
+            }
+
+            .booking-banner-inner {
+                padding: 0 32px;
+            }
+        }
+
+        @@media (max-width: 640px) {
+            .booking-content {
+                padding: 24px 20px 60px;
+            }
+
+            .booking-banner-inner {
+                padding: 0 20px;
+            }
+
+            .booking-banner h1 {
+                font-size: 1.8rem;
+            }
+
+            .fields-row {
+                grid-template-columns: 1fr;
+            }
+
+            .form-card-body {
+                padding: 24px 20px;
+            }
+
+            .form-steps {
+                display: none;
+            }
+        }
+    </style>
+}
+
+<div class="booking-page">
+
+    <!-- ── BANNER ── -->
+    <div class="booking-banner">
+        <div class="booking-banner-inner">
+            <span class="section-label">تأكيد الحجز</span>
+            <h1>أكمل <span>حجز رحلتك</span></h1>
+            <p>أدخل بياناتك لإتمام الحجز — العملية تستغرق أقل من دقيقة</p>
+            <div class="breadcrumb-row">
+                <a href="../Home/Index?email=@Model.email">الرئيسية</a>
+                <i class="fas fa-chevron-left"></i>
+                <a href="../Home/alltrips?email=@Model.email">الرحلات</a>
+                <i class="fas fa-chevron-left"></i>
+                <a href="../Home/tripdetials?tripid=@Model.Id&email=@Model.email">تفاصيل الرحلة</a>
+                <i class="fas fa-chevron-left"></i>
+                <span>الحجز</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── CONTENT ── -->
+    <div class="booking-content">
+
+        <!-- FORM -->
+        <div>
+            <div class="form-card">
+                <div class="form-card-header">
+                    <div class="form-card-header-icon">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <div>
+                        <h3>بيانات الحجز</h3>
+                        <p>يرجى ملء جميع الحقول بدقة</p>
+                    </div>
+                </div>
+
+                <div class="form-card-body">
+
+                    <!-- Steps -->
+                    <div class="form-steps">
+                        <div class="form-step active-step">
+                            <div class="step-dot active">١</div>
+                            <span class="step-text">البيانات الشخصية</span>
+                        </div>
+                        <div class="step-line"></div>
+                        <div class="form-step">
+                            <div class="step-dot">٢</div>
+                            <span class="step-text">تفاصيل الحجز</span>
+                        </div>
+                        <div class="step-line"></div>
+                        <div class="form-step">
+                            <div class="step-dot">٣</div>
+                            <span class="step-text">التأكيد</span>
+                        </div>
+                    </div>
+
+                    @using (Html.BeginForm("addbook", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.HiddenFor(x => x.Id)
+                        @Html.HiddenFor(x => x.email)
+                        @Html.HiddenFor(x => x.hotel)
+                        @Html.HiddenFor(x => x.transport)
+
+                        <div class="fields-row">
+                            <div class="field-group">
+                                <label class="field-label" for="name">
+                                    <span class="field-required">*</span> الاسم الكامل
+                                </label>
+                                <div class="field-wrap">
+                                    <input id="name" name="name" type="text" placeholder="محمد أحمد" required>
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+
+                            <div class="field-group">
+                                <label class="field-label" for="phone">
+                                    <span class="field-required">*</span> رقم الهاتف
+                                </label>
+                                <div class="field-wrap">
+                                    <input id="phone" name="phone" type="text" placeholder="01xxxxxxxxx" required>
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field-group">
+                            <label class="field-label" for="email">
+                                <span class="field-required">*</span> البريد الإلكتروني
+                            </label>
+                            <div class="field-wrap">
+                                <input id="email" name="email" type="email" placeholder="example@email.com" required>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+
+                        <div class="form-divider">
+                            <span><i class="fas fa-id-card"></i> معلومات الهوية والرحلة</span>
+                        </div>
+
+                        <div class="fields-row">
+                            <div class="field-group">
+                                <label class="field-label" for="idcard">
+                                    <span class="field-required">*</span> الرقم القومي
+                                </label>
+                                <div class="field-wrap">
+                                    <input id="idcard" name="idcard" type="text" placeholder="14 رقماً" required maxlength="14">
+                                    <i class="fas fa-id-card"></i>
+                                </div>
+                                <div class="field-hint">
+                                    <i class="fas fa-info-circle"></i> يجب أن يكون 14 رقماً
+                                </div>
+                            </div>
+
+                            <div class="field-group">
+                                <label class="field-label" for="travelerNo">
+                                    <span class="field-required">*</span> عدد المسافرين
+                                </label>
+                                <div class="field-wrap">
+                                    <input id="travelerNo" name="travelerNo" type="number" placeholder="1" min="1" required>
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="field-hint">
+                                    <i class="fas fa-info-circle"></i> أدخل العدد الإجمالي للمسافرين
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-check-circle"></i>
+                            تأكيد الحجز الآن
+                        </button>
+                    }
+
+                </div>
+            </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="booking-sidebar">
+
+            <div class="summary-card">
+                <div class="summary-card-head">
+                    <i class="fas fa-receipt"></i>
+                    <h4>ملخص الرحلة</h4>
+                </div>
+                <div class="summary-body">
+                    <div class="summary-row">
+                        <span class="sr-label"><i class="fas fa-map-marker-alt"></i> من</span>
+                        <span class="sr-val">@Model.city</span>
+                    </div>
+                    <div class="summary-row">
+                        <span class="sr-label"><i class="fas fa-flag"></i> إلى</span>
+                        <span class="sr-val">@Model.tripplace</span>
+                    </div>
+                    <div class="summary-row">
+                        <span class="sr-label"><i class="fas fa-calendar-alt"></i> الذهاب</span>
+                        <span class="sr-val">@Model.godate</span>
+                    </div>
+                    <div class="summary-row">
+                        <span class="sr-label"><i class="fas fa-calendar-check"></i> العودة</span>
+                        <span class="sr-val">@Model.comingdate</span>
+                    </div>
+                    <div class="summary-row">
+                        <span class="sr-label"><i class="fas fa-bus"></i> وسيلة السفر</span>
+                        <span class="sr-val">@Model.travelmethod</span>
+                    </div>
+                    <div class="summary-row">
+                        <span class="sr-label"><i class="fas fa-clock"></i> الإقلاع</span>
+                        <span class="sr-val">@Model.time</span>
+                    </div>
+                    <div class="summary-row">
+                        <span class="sr-label"><i class="fas fa-tag"></i> السعر</span>
+                        <span class="sr-val gold">@Model.tiketprice جنيه</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trust-card">
+                <div class="trust-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>بياناتك محمية وآمنة تماماً</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-lock"></i>
+                    <span>تشفير كامل لجميع المعاملات</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-headset"></i>
+                    <span>دعم فوري في حال أي استفسار</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-undo"></i>
+                    <span>سياسة إلغاء مرنة وواضحة</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+    // Animate form fields on load
+    var groups = document.querySelectorAll('.field-group, .trust-item, .summary-row');
+    groups.forEach(function(el, i) {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(12px)';
+        el.style.transition = 'opacity 0.4s ease ' + (i * 0.04) + 's, transform 0.4s ease ' + (i * 0.04) + 's';
+        setTimeout(function() {
+            el.style.opacity = '1';
+            el.style.transform = 'translateY(0)';
+        }, 80);
+    });
+
+    // Live traveler count updates price in sidebar
+    var travelerInput = document.getElementById('travelerNo');
+    var basePrice = @(Model.tiketprice != null ? Model.tiketprice.ToString() : "0");
+
+    travelerInput && travelerInput.addEventListener('input', function() {
+        var count = parseInt(this.value) || 1;
+        var total = count * basePrice;
+        var priceEl = document.querySelector('.sr-val.gold');
+        if (priceEl) priceEl.textContent = total.toLocaleString('ar-EG') + ' جنيه';
+    });
+    </script>
+}

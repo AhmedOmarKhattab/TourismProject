@@ -1,0 +1,76 @@
+﻿@model IEnumerable<OnlineShop.Models.Trip>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<table class="table" border="6" dir="rtl">
+    <tr>
+        <th>
+            مكان الرحلة
+        </th>
+        <th>
+            تاريخ الاقلاع
+        </th>
+        <th>
+            تاريخ الوصول
+        </th>
+        <th>
+            طريقة الوصول
+        </th>
+       
+        <th>
+            سعر التذكرة
+        </th>
+
+        <th>
+            الفندق
+        </th>
+        <th>
+            مدينة الوصول
+        </th>
+        <th>
+           نوع الرحلة
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.tripplace)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.godate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.comingdate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.travelmethod)
+        </td>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.tiketprice)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.hotel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.city)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.type)
+        </td>
+        <td>
+
+            @Html.ActionLink("حذف الرحلة", "Deletetrip", new { tripid = item.Id })
+        </td>
+    </tr>
+}
+
+</table>

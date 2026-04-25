@@ -1,0 +1,110 @@
+﻿@model IEnumerable<OnlineShop.Models.booking>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 align="right">قائمة الحجز</h2>
+<br />
+<div class="col-xl-12">
+    <input type="text" dir="rtl" placeholder="ادخل اليوم و الشهر و السنة" id="Search" class="form-control" />
+</div>
+<br />
+
+<table class="table" border="3" dir="rtl">
+    <tr>
+        <th>
+            اسم صاحب الحجز
+        </th>
+        <th>
+            عدد المسافرين
+        </th>
+
+        <th>
+            الرقم القومى
+        </th>
+        <th>
+            كود الرحلة
+        </th>
+        <th>
+            الفندق
+        </th>
+        <th>
+            وسيلة النقل
+        </th>
+
+
+        <th>
+            الهاتف
+        </th>
+        <th>
+            التاريخ
+        </th>
+        <th>
+            الايميل
+        </th>
+     
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr class="Search">
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.travelerNo)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.idcard)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tripid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.hotel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.transport)
+            </td>
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.ActionLink("تأكيد الحجز", "Deletebook", new { idbook = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+<script>
+        $(document).ready(function () {
+            function Contains(text_one, text_two) {
+                if (text_one.indexOf(text_two) != -1)
+                    return true;
+            }
+            $("#Search").keyup(function () {
+                var searchText = $("#Search").val().toLowerCase();
+                $(".Search").each(function () {
+                    if (!Contains($(this).text().toLowerCase(), searchText)) {
+                        $(this).hide();
+                    } else {
+                        $(this).show();
+                    }
+                });
+            });
+
+        });
+</script>

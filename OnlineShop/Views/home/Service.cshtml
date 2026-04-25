@@ -1,0 +1,154 @@
+﻿@model OnlineShop.Models.allproject
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+@section head {
+    <style>
+
+        /* ══ HERO SMALL ══ */
+        .page-hero {
+            position: relative;
+            padding: 140px 0 80px;
+            background: var(--navy);
+            text-align: center;
+            overflow: hidden;
+        }
+
+            .page-hero::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: url('/Content/imgs/slide1.jpg') center/cover;
+                opacity: 0.15;
+            }
+
+            .page-hero h1 {
+                position: relative;
+                color: var(--white);
+                font-size: 2.6rem;
+                font-weight: 900;
+            }
+
+            .page-hero p {
+                position: relative;
+                color: var(--text-muted);
+                margin-top: 10px;
+            }
+
+        /* ══ SERVICES ══ */
+        .services-section {
+            padding: 100px 0;
+            background: var(--navy-mid);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .service-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(201,168,76,0.12);
+            border-radius: 12px;
+            padding: 40px 25px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+            .service-card:hover {
+                transform: translateY(-6px);
+                border-color: var(--gold);
+                background: rgba(201,168,76,0.05);
+            }
+
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(201,168,76,0.1);
+            color: var(--gold);
+            font-size: 1.6rem;
+        }
+
+        .service-card:hover .service-icon {
+            background: var(--gold);
+            color: var(--navy);
+        }
+
+        .service-title {
+            color: var(--white);
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
+        .service-desc {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* responsive */
+        @@media(max-width: 768px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+}
+
+<!-- ═════════ HERO ═════════ -->
+<section class="page-hero">
+    <h1>خدماتنا</h1>
+    <p>تعرف على كل ما نقدمه لك لتجربة سفر متكاملة</p>
+</section>
+
+<!-- ═════════ SERVICES ═════════ -->
+<section class="services-section">
+    <div class="container-xl">
+
+        <div class="section-header">
+            <span class="section-label">ما نقدمه</span>
+            <h2 class="section-title">الخدمات التي نوفرها</h2>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-route"></i>
+                </div>
+                <h4 class="service-title">خدمة الرحلات</h4>
+                <p class="service-desc">
+                    نوفر مجموعة مميزة من الرحلات الداخلية المصممة بعناية
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-ticket-alt"></i>
+                </div>
+                <h4 class="service-title">الحجوزات أونلاين</h4>
+                <p class="service-desc">
+                    احجز رحلتك بسهولة وسرعة من خلال موقعنا الإلكتروني
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-hotel"></i>
+                </div>
+                <h4 class="service-title">خدمات فندقية</h4>
+                <p class="service-desc">
+                    نوفر أفضل الفنادق المناسبة لكل رحلة لضمان راحتك
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>

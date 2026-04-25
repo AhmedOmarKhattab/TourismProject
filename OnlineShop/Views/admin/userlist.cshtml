@@ -1,0 +1,49 @@
+﻿@model IEnumerable<OnlineShop.Models.customer>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<table class="table" border="6" dir="rtl">
+    <tr>
+        <th>
+            الاسم
+        </th>
+        <th>
+            الايميل
+        </th>
+        <th>
+            كلمة المرور
+        </th>
+        <th>
+            العنوان
+        </th>
+        <th>
+            الهاتف
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.adress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.phone)
+        </td>
+       
+    </tr>
+}
+
+</table>

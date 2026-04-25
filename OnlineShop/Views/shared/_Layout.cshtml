@@ -1,0 +1,148 @@
+﻿
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueSky</title>
+    
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap-icons/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="~/lib/datatables/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" href="~/lib/datatables-buttons/css/buttons.dataTables.min.css" />
+    <link rel="stylesheet" href="~/lib/alertifyjs/css/alertify.min.css" />
+    <link rel="stylesheet" href="~/lib/alertifyjs/css/themes/default.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css">
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" dir="rtl">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <!-- Logo (force left) -->
+            <a class="navbar-brand order-1 order-lg-0 ml-auto" href="#">
+                <img src="~/files/SiteImages/logo.PNG" width="70" height="70" />
+            </a>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse order-0 order-lg-1" id="navbarCollapse">
+                <div class="navbar-nav mx-auto py-0">
+                    <a href="~/admin/Index" class="nav-item nav-link active">الرئيسية</a>
+                    <a href="~/admin/addtrip" class="nav-item nav-link">اضافة الرحلات</a>
+                    <a href="~/admin/userlist" class="nav-item nav-link">قائمة المستخدمين</a>
+                    <a href="~/admin/bookList" class="nav-item nav-link">قائمة الحجوزات</a>
+                    <a href="~/admin/HotelIndex" class="nav-item nav-link">قائمة الفنادق </a>
+
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    @RenderBody()
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="footer_blog_section">
+                        <img src="~/files/SiteImages/logo.PNG" width="70" height="70" />
+                        <p style="margin-top: 5px;">
+                            "مرحبًا بك في موقعنا للسياحة، حيث نقدم لك تجربة سفر لا تُنسى سواء كنت تفضل استكشاف المعالم السياحية في بلدك أو اكتشاف أفق جديدة في أرجاء العالم. نحن نؤمن بأهمية السفر والاستكشاف لتوسيع آفاقك وتجديد طاقتك.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-12">
+                    <div class="item">
+                        <h4 class="text-uppercase">الروابط</h4>
+                        <ul>
+                            <a href="~/admin/bookList" class="nav-item nav-link">قائمة الحجوزات</a>
+                            <a href="~/admin/userlist" class="nav-item nav-link">قائمة المستخدمين</a>
+
+                            <a href="~/admin/addtrip" class="nav-item nav-link active">اضافة الرحلات</a>
+                            <a href="~/admin/Index" class="nav-item nav-link active">الرئيسية</a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="item">
+                        <h4 class="text-uppercase">معلومات الاتصال</h4>
+                        <p><strong>عنوان المكتب الرئيسي:</strong></p>
+                        <p><img src="~/files/SiteImages/phone_icon.png" alt="#" />  شارع التحرير بجوار المتحف المصرى </p>
+                        <p><strong>خدمة العملاء:</strong></p>
+                        <p><img src="~/files/SiteImages/location.png" alt="#" /> 01254844646</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="item">
+                        <h4 class="text-uppercase">اكتشف</h4>
+                        <ul>
+                            <li><a href="#">المساعدة</a></li>
+                            <li><a href="#">كيف يعمل</a></li>
+                            <li><a href="#">الاشتراك</a></li>
+                            <li><a href="#">اتصل بنا</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright text-center">
+            <p>حقوق النشر محفوظة 2019  تصميم من قبل <a href="https://html.design">قوالب HTML مجانية</a></p>
+        </div>
+    </footer>
+   
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/datatables/js/jquery.dataTables.min.js"></script>
+    <script src="~/lib/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="~/lib/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="~/lib/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="~/lib/jszip/jszip.min.js"></script>
+    <script src="~/lib/pdfmake/pdfmake.min.js"></script>
+    <script src="~/lib/pdfmake/vfs_fonts.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        $(function () {
+
+            'use strict';
+
+            var winH = $(window).height();
+
+            $('header').height(winH);
+
+            $('header .container > div').css('top', (winH / 2) - ($('header .container > div').height() / 2));
+
+            $('.navbar ul li a.search').on('click', function (e) {
+                e.preventDefault();
+            });
+            $('.navbar a.search').on('click', function () {
+                $('.navbar form').fadeToggle();
+            });
+
+            $('.navbar ul.navbar-nav li a').on('click', function (e) {
+
+                var getAttr = $(this).attr('href');
+
+                e.preventDefault();
+                $('html').animate({ scrollTop: $(getAttr).offset().top }, 1000);
+            });
+        })
+    </script>
+</body>
+</html>

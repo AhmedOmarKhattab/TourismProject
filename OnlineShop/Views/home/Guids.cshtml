@@ -1,0 +1,202 @@
+﻿@model OnlineShop.Models.allproject
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+@section head {
+    <style>
+
+        /* ══ HERO ══ */
+        .page-hero {
+            position: relative;
+            padding: 140px 0 80px;
+            background: var(--navy);
+            text-align: center;
+            overflow: hidden;
+        }
+
+            .page-hero::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: url('/Content/imgs/slide1.jpg') center/cover;
+                opacity: 0.15;
+            }
+
+            .page-hero h1 {
+                position: relative;
+                color: var(--white);
+                font-size: 2.6rem;
+                font-weight: 900;
+            }
+
+            .page-hero p {
+                position: relative;
+                color: var(--text-muted);
+                margin-top: 10px;
+            }
+
+        /* ══ GUIDES ══ */
+        .guides-section {
+            padding: 100px 0;
+            background: var(--navy-mid);
+        }
+
+        .guides-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        /* card */
+        .guide-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(201,168,76,0.12);
+            border-radius: 14px;
+            overflow: hidden;
+            transition: 0.35s;
+            text-align: center;
+        }
+
+            .guide-card:hover {
+                transform: translateY(-8px);
+                border-color: var(--gold);
+                box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+            }
+
+        /* image */
+        .guide-img {
+            position: relative;
+            height: 260px;
+            overflow: hidden;
+        }
+
+            .guide-img img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: 0.5s;
+            }
+
+        .guide-card:hover img {
+            transform: scale(1.08);
+        }
+
+        /* overlay */
+        .guide-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(10,22,40,0.9), transparent);
+            opacity: 0;
+            transition: 0.3s;
+        }
+
+        .guide-card:hover .guide-overlay {
+            opacity: 1;
+        }
+
+        /* social */
+        .guide-social {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%) translateY(20px);
+            display: flex;
+            gap: 10px;
+            opacity: 0;
+            transition: 0.3s;
+        }
+
+        .guide-card:hover .guide-social {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        .guide-social a {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: var(--gold);
+            color: var(--navy);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9rem;
+        }
+
+        /* content */
+        .guide-content {
+            padding: 20px;
+        }
+
+        .guide-name {
+            color: var(--white);
+            font-weight: 800;
+            margin-bottom: 6px;
+        }
+
+        .guide-lang {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        /* responsive */
+        @@media(max-width: 1024px) {
+            .guides-grid {
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+
+        @@media(max-width: 600px) {
+            .guides-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+}
+
+<!-- ═════════ HERO ═════════ -->
+<section class="page-hero">
+    <h1>مرشدونا السياحيون</h1>
+    <p>تعرف على أفضل المرشدين لمرافقتك في رحلتك</p>
+</section>
+
+<!-- ═════════ GUIDES ═════════ -->
+<section class="guides-section">
+    <div class="container-xl">
+
+        <div class="section-header">
+            <span class="section-label">فريقنا</span>
+            <h2 class="section-title">المرشدين السياحيين</h2>
+        </div>
+
+        <div class="guides-grid">
+
+            @foreach (var item in Model.guidLists)
+            {
+                <div class="guide-card">
+
+                    <div class="guide-img">
+                        <img src="@Url.Content(item.image)" alt="@item.name">
+
+                        <div class="guide-overlay"></div>
+
+                        <div class="guide-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="guide-content">
+                        <h4 class="guide-name">@item.name</h4>
+                        <p class="guide-lang">اللغات: @item.language</p>
+                    </div>
+
+                </div>
+            }
+
+        </div>
+
+    </div>
+</section>

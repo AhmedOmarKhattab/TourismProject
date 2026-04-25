@@ -1,0 +1,458 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+@section head {
+    <style>
+        .login-page {
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        /* ── LEFT PANEL (branding) ── */
+        .login-left {
+            position: relative;
+            background: var(--navy-mid);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 50px;
+            overflow: hidden;
+        }
+
+            .login-left::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background-image: url('/files/SiteImages/slide1.jpg');
+                background-size: cover;
+                background-position: center;
+                filter: brightness(0.22);
+            }
+
+            .login-left::after {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(160deg, rgba(10,22,40,0.6) 0%, rgba(201,168,76,0.08) 100%);
+            }
+
+        .left-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+
+        .brand-logo-wrap {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 2px solid var(--gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            background: rgba(10,22,40,0.5);
+            backdrop-filter: blur(6px);
+        }
+
+            .brand-logo-wrap img {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+        .left-title {
+            font-size: 2.4rem;
+            font-weight: 900;
+            color: var(--white);
+            margin-bottom: 8px;
+            line-height: 1.2;
+        }
+
+            .left-title span {
+                color: var(--gold);
+            }
+
+        .left-subtitle {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+            max-width: 340px;
+            margin: 0 auto 36px;
+        }
+
+        .left-features {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            text-align: right;
+            max-width: 320px;
+            margin: 0 auto;
+        }
+
+        .left-feature {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(201,168,76,0.15);
+            border-radius: 8px;
+            padding: 13px 18px;
+        }
+
+            .left-feature i {
+                color: var(--gold);
+                font-size: 1rem;
+                flex-shrink: 0;
+                width: 18px;
+                text-align: center;
+            }
+
+            .left-feature span {
+                font-size: 0.86rem;
+                color: rgba(240,234,214,0.8);
+                font-weight: 500;
+            }
+
+        /* decorative circles */
+        .deco-circle {
+            position: absolute;
+            border-radius: 50%;
+            border: 1px solid rgba(201,168,76,0.1);
+            z-index: 1;
+        }
+
+        .deco-circle-1 {
+            width: 340px;
+            height: 340px;
+            bottom: -80px;
+            right: -80px;
+        }
+
+        .deco-circle-2 {
+            width: 200px;
+            height: 200px;
+            top: 40px;
+            left: -60px;
+        }
+
+        /* ── RIGHT PANEL (form) ── */
+        .login-right {
+            background: var(--navy);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 50px;
+        }
+
+        .login-box {
+            width: 100%;
+            max-width: 420px;
+        }
+
+        .login-box-header {
+            margin-bottom: 36px;
+        }
+
+            .login-box-header .label {
+                font-size: 0.72rem;
+                font-weight: 700;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: var(--gold);
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .login-box-header h2 {
+                font-size: 2rem;
+                font-weight: 900;
+                color: var(--white);
+                line-height: 1.25;
+            }
+
+            .login-box-header p {
+                font-size: 0.88rem;
+                color: var(--text-muted);
+                margin-top: 8px;
+                line-height: 1.7;
+            }
+
+        /* form fields */
+        .field-group {
+            margin-bottom: 20px;
+        }
+
+        .field-label {
+            display: block;
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: rgba(240,234,214,0.8);
+            margin-bottom: 8px;
+            letter-spacing: 0.3px;
+        }
+
+        .field-wrap {
+            position: relative;
+        }
+
+            .field-wrap i {
+                position: absolute;
+                top: 50%;
+                right: 16px;
+                transform: translateY(-50%);
+                color: var(--text-muted);
+                font-size: 0.9rem;
+                pointer-events: none;
+                transition: color 0.2s ease;
+            }
+
+            .field-wrap input {
+                width: 100%;
+                background: rgba(255,255,255,0.04);
+                border: 1.5px solid rgba(255,255,255,0.1);
+                border-radius: 8px;
+                padding: 13px 44px 13px 16px;
+                color: var(--white);
+                font-family: 'Cairo', sans-serif;
+                font-size: 0.92rem;
+                transition: all 0.25s ease;
+                outline: none;
+                direction: rtl;
+            }
+
+                .field-wrap input::placeholder {
+                    color: var(--text-muted);
+                }
+
+                .field-wrap input:focus {
+                    border-color: var(--gold);
+                    background: rgba(201,168,76,0.05);
+                    box-shadow: 0 0 0 3px rgba(201,168,76,0.1);
+                }
+
+                    .field-wrap input:focus + i,
+                    .field-wrap:focus-within i {
+                        color: var(--gold);
+                    }
+
+        /* submit button */
+        .btn-login {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+            border: none;
+            border-radius: 8px;
+            color: var(--navy);
+            font-family: 'Cairo', sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 8px;
+            letter-spacing: 0.5px;
+        }
+
+            .btn-login:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 10px 28px rgba(201,168,76,0.4);
+            }
+
+        /* divider */
+        .divider {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin: 24px 0;
+        }
+
+            .divider::before, .divider::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: rgba(255,255,255,0.08);
+            }
+
+            .divider span {
+                font-size: 0.76rem;
+                color: var(--text-muted);
+                white-space: nowrap;
+            }
+
+        /* social buttons */
+        .social-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 28px;
+        }
+
+        .btn-social {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 11px 16px;
+            border-radius: 8px;
+            border: 1.5px solid rgba(255,255,255,0.1);
+            background: rgba(255,255,255,0.03);
+            color: rgba(240,234,214,0.8);
+            font-family: 'Cairo', sans-serif;
+            font-size: 0.86rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.25s ease;
+        }
+
+            .btn-social:hover {
+                background: rgba(255,255,255,0.07);
+                border-color: rgba(255,255,255,0.2);
+                color: var(--white);
+                text-decoration: none;
+            }
+
+            .btn-social .fab {
+                font-size: 1rem;
+            }
+
+            .btn-social .fa-facebook {
+                color: #1877F2;
+            }
+
+            .btn-social .fa-instagram {
+                color: #E1306C;
+            }
+
+        /* signup link */
+        .signup-prompt {
+            text-align: center;
+            margin-top: 24px;
+            font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+
+            .signup-prompt a {
+                color: var(--gold-light);
+                text-decoration: none;
+                font-weight: 600;
+                transition: color 0.2s ease;
+            }
+
+                .signup-prompt a:hover {
+                    color: var(--gold);
+                }
+
+        /* responsive */
+        @@media (max-width: 900px) {
+            .login-page {
+                grid-template-columns: 1fr;
+            }
+
+            .login-left {
+                display: none;
+            }
+
+            .login-right {
+                padding: 40px 24px;
+                min-height: 100vh;
+            }
+        }
+    </style>
+}
+
+<div class="login-page">
+
+    <!-- ── BRANDING PANEL ── -->
+    <div class="login-left">
+        <div class="deco-circle deco-circle-1"></div>
+        <div class="deco-circle deco-circle-2"></div>
+
+        <div class="left-content">
+            <div class="brand-logo-wrap">
+                <img src="~/files/SiteImages/logo.PNG" alt="BlueSky Logo">
+            </div>
+
+            <h1 class="left-title">بلو <span>سكاى</span></h1>
+            <p class="left-subtitle">
+                بوابتك إلى تجارب سفر استثنائية — داخلية وخارجية بأفضل الأسعار وأعلى مستوى من الخدمة.
+            </p>
+
+            <div class="left-features">
+                <div class="left-feature">
+                    <i class="fas fa-calendar-check"></i>
+                    <span>حجز فوري وسهل أونلاين</span>
+                </div>
+                <div class="left-feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>دفع آمن ومضمون</span>
+                </div>
+                <div class="left-feature">
+                    <i class="fas fa-headset"></i>
+                    <span>دعم على مدار الساعة</span>
+                </div>
+                <div class="left-feature">
+                    <i class="fas fa-globe"></i>
+                    <span>أكثر من 30 وجهة سياحية</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── FORM PANEL ── -->
+    <div class="login-right">
+        <div class="login-box">
+
+            <div class="login-box-header">
+                <span class="label">مرحبًا بعودتك</span>
+                <h2>تسجيل الدخول</h2>
+                <p>أدخل بيانات حسابك للمتابعة</p>
+            </div>
+
+            @using (Html.BeginForm("login", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <div class="field-group">
+                    <label class="field-label" for="email">البريد الإلكتروني</label>
+                    <div class="field-wrap">
+                        <input id="email" name="email" type="email" placeholder="example@email.com" autocomplete="email">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <label class="field-label" for="password">كلمة المرور</label>
+                    <div class="field-wrap">
+                        <input id="password" name="password" type="password" placeholder="••••••••" autocomplete="current-password">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-login">
+                    <i class="fas fa-sign-in-alt" style="margin-left:8px"></i>دخول
+                </button>
+            }
+
+            <div class="divider"><span>أو سجّل الدخول عبر</span></div>
+
+            <div class="social-row">
+                <a href="https://www.facebook.com/YourPage" target="_blank" rel="noopener noreferrer" class="btn-social">
+                    <i class="fab fa-facebook"></i> فيسبوك
+                </a>
+                <a href="https://www.instagram.com/YourPage" target="_blank" rel="noopener noreferrer" class="btn-social">
+                    <i class="fab fa-instagram"></i> انستغرام
+                </a>
+            </div>
+
+            <div class="signup-prompt">
+                ليس لديك حساب؟
+                <a href="signup">إنشاء حساب جديد</a>
+            </div>
+
+        </div>
+    </div>
+
+</div>

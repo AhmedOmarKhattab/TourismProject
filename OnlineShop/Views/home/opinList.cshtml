@@ -1,0 +1,523 @@
+﻿@model OnlineShop.Models.allproject
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+@section head {
+    <style>
+        .reviews-page {
+            padding-top: 80px;
+            min-height: 100vh;
+            background: var(--navy);
+        }
+
+        /* ── BANNER ── */
+        .reviews-banner {
+            background: var(--navy-mid);
+            padding: 56px 0 46px;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 1px solid rgba(201,168,76,0.15);
+        }
+
+            .reviews-banner::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: radial-gradient(ellipse at 40% 50%, rgba(201,168,76,0.07) 0%, transparent 65%);
+            }
+
+            /* large decorative quote */
+            .reviews-banner::after {
+                content: '"';
+                position: absolute;
+                left: 60px;
+                top: -20px;
+                font-size: 16rem;
+                font-weight: 900;
+                color: rgba(201,168,76,0.05);
+                line-height: 1;
+                font-family: Georgia, serif;
+                pointer-events: none;
+            }
+
+        .reviews-banner-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 60px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .section-label {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+
+        .reviews-banner h1 {
+            font-size: 2.3rem;
+            font-weight: 900;
+            color: var(--white);
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+
+            .reviews-banner h1 span {
+                color: var(--gold-light);
+            }
+
+        .reviews-banner p {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+            max-width: 480px;
+        }
+
+        .breadcrumb-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 16px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+            .breadcrumb-row a {
+                color: var(--gold);
+                text-decoration: none;
+            }
+
+            .breadcrumb-row i {
+                font-size: 0.62rem;
+            }
+
+        /* ── STATS BAR ── */
+        .stats-bar {
+            background: var(--navy-mid);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .stats-bar-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 60px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            height: 70px;
+        }
+
+        .stat-pill {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+            .stat-pill i {
+                color: var(--gold);
+                font-size: 0.95rem;
+            }
+
+            .stat-pill strong {
+                color: var(--white);
+                font-weight: 700;
+            }
+
+        .stat-divider {
+            width: 1px;
+            height: 28px;
+            background: rgba(255,255,255,0.08);
+        }
+
+        /* stars row */
+        .stars {
+            display: flex;
+            gap: 2px;
+        }
+
+            .stars i {
+                color: var(--gold);
+                font-size: 0.85rem;
+            }
+
+                .stars i.half {
+                    color: rgba(201,168,76,0.4);
+                }
+
+        /* ── CONTENT ── */
+        .reviews-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 60px 100px;
+        }
+
+        /* ── EMPTY STATE ── */
+        .empty-reviews {
+            text-align: center;
+            padding: 90px 20px;
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.1);
+            border-radius: 16px;
+        }
+
+        .empty-icon {
+            width: 76px;
+            height: 76px;
+            background: rgba(201,168,76,0.08);
+            border: 1px solid rgba(201,168,76,0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 1.9rem;
+            color: var(--gold);
+        }
+
+        .empty-reviews h2 {
+            font-size: 1.4rem;
+            font-weight: 800;
+            color: var(--white);
+            margin-bottom: 10px;
+        }
+
+        .empty-reviews p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            max-width: 380px;
+            margin: 0 auto;
+            line-height: 1.85;
+        }
+
+        /* ── REVIEWS GRID ── */
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px;
+        }
+
+        /* ── REVIEW CARD ── */
+        .review-card {
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.1);
+            border-radius: 14px;
+            padding: 28px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.35s ease;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+            .review-card.visible {
+                opacity: 1;
+                transform: translateY(0);
+                transition: opacity 0.5s ease, transform 0.5s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+            }
+
+            .review-card:hover {
+                border-color: rgba(201,168,76,0.3);
+                box-shadow: 0 16px 40px rgba(0,0,0,0.3);
+                transform: translateY(-5px) !important;
+            }
+
+            /* decorative quote mark */
+            .review-card::before {
+                content: '"';
+                position: absolute;
+                top: -10px;
+                left: 20px;
+                font-size: 7rem;
+                font-weight: 900;
+                color: rgba(201,168,76,0.07);
+                line-height: 1;
+                font-family: Georgia, serif;
+                pointer-events: none;
+            }
+
+            /* gold top accent */
+            .review-card::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                left: 0;
+                height: 3px;
+                background: linear-gradient(90deg, var(--gold-dark), var(--gold-light));
+                transform: scaleX(0);
+                transform-origin: right;
+                transition: transform 0.35s ease;
+            }
+
+            .review-card:hover::after {
+                transform: scaleX(1);
+            }
+
+        /* card stars */
+        .review-stars {
+            display: flex;
+            gap: 3px;
+        }
+
+            .review-stars i {
+                color: var(--gold);
+                font-size: 0.82rem;
+            }
+
+        /* review text */
+        .review-text {
+            font-size: 0.92rem;
+            color: rgba(240,234,214,0.8);
+            line-height: 1.9;
+            flex: 1;
+            position: relative;
+            z-index: 1;
+            text-align: right;
+        }
+
+        /* reviewer info */
+        .reviewer {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding-top: 14px;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .reviewer-avatar {
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--gold-dark), var(--navy-light));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            font-weight: 800;
+            color: var(--white);
+            flex-shrink: 0;
+            border: 2px solid rgba(201,168,76,0.3);
+        }
+
+        .reviewer-info {
+            flex: 1;
+        }
+
+        .reviewer-name {
+            font-size: 0.92rem;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 2px;
+        }
+
+        .reviewer-label {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+            .reviewer-label i {
+                color: var(--gold);
+                font-size: 0.65rem;
+            }
+
+        /* verified badge */
+        .verified-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: rgba(52,211,153,0.1);
+            border: 1px solid rgba(52,211,153,0.2);
+            color: #6EE7B7;
+            font-size: 0.68rem;
+            font-weight: 700;
+            padding: 3px 9px;
+            border-radius: 50px;
+            margin-right: auto;
+        }
+
+            .verified-badge i {
+                font-size: 0.6rem;
+            }
+
+        /* ── RESPONSIVE ── */
+        @@media (max-width: 1024px) {
+            .reviews-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .reviews-content {
+                padding: 36px 32px 80px;
+            }
+
+            .reviews-banner-inner {
+                padding: 0 32px;
+            }
+
+            .stats-bar-inner {
+                padding: 0 32px;
+                gap: 24px;
+            }
+        }
+
+        @@media (max-width: 640px) {
+            .reviews-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .reviews-content {
+                padding: 24px 20px 60px;
+            }
+
+            .reviews-banner-inner {
+                padding: 0 20px;
+            }
+
+            .reviews-banner h1 {
+                font-size: 1.8rem;
+            }
+
+            .reviews-banner::after {
+                display: none;
+            }
+
+            .stats-bar-inner {
+                padding: 0 20px;
+                gap: 16px;
+                flex-wrap: wrap;
+                height: auto;
+                padding-top: 14px;
+                padding-bottom: 14px;
+            }
+
+            .stat-divider {
+                display: none;
+            }
+        }
+    </style>
+}
+
+<div class="reviews-page">
+
+    <!-- ── BANNER ── -->
+    <div class="reviews-banner">
+        <div class="reviews-banner-inner">
+            <span class="section-label">آراء العملاء</span>
+            <h1>ماذا يقول <span>مسافرونا</span></h1>
+            <p>تجارب حقيقية من عملائنا الكرام — نفخر بثقتهم ونسعى دائماً لتجاوز توقعاتهم</p>
+            <div class="breadcrumb-row">
+                <a href="../Home/Index?email=@Model.email">الرئيسية</a>
+                <i class="fas fa-chevron-left"></i>
+                <span>آراء العملاء</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── STATS BAR ── -->
+    @if (Model.opins != null && Model.opins.Any())
+    {
+        <div class="stats-bar">
+            <div class="stats-bar-inner">
+                <div class="stat-pill">
+                    <i class="fas fa-comments"></i>
+                    <span><strong>@Model.opins.Count()</strong> تقييم</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-pill">
+                    <i class="fas fa-star"></i>
+                    <span>التقييم العام: <strong>4.8 / 5</strong></span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    }
+
+    <!-- ── CONTENT ── */-->
+    <div class="reviews-content">
+
+        @if (Model.opins == null || !Model.opins.Any())
+        {
+            <div class="empty-reviews">
+                <div class="empty-icon">
+                    <i class="fas fa-comment-dots"></i>
+                </div>
+                <h2>لا توجد آراء بعد</h2>
+                <p>كن أول من يشارك تجربته مع بلو سكاى للسياحة</p>
+            </div>
+        }
+        else
+        {
+            <div class="reviews-grid">
+                @foreach (var item in Model.opins)
+                {
+                    <div class="review-card">
+                        <div class="review-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                        <p class="review-text">@item.opin1</p>
+
+                        <div class="reviewer">
+                            <div class="reviewer-avatar">
+                                @(string.IsNullOrWhiteSpace(item.name) ? "؟" : item.name.Substring(0, 1))
+                            </div>
+                            <div class="reviewer-info">
+                                <div class="reviewer-name">@item.name</div>
+                                <div class="reviewer-label">
+                                    <i class="fas fa-plane"></i> عميل بلو سكاى
+                                </div>
+                            </div>
+                            <span class="verified-badge">
+                                <i class="fas fa-check-circle"></i> موثق
+                            </span>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+
+    </div>
+</div>
+
+@section scripts {
+    <script>
+    // Staggered entrance animation
+    var cards = document.querySelectorAll('.review-card');
+    var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    cards.forEach(function(card, i) {
+        card.style.transitionDelay = (i * 0.08) + 's';
+        observer.observe(card);
+    });
+    </script>
+}

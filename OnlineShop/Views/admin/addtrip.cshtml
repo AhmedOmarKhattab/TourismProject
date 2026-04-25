@@ -1,0 +1,72 @@
+﻿@model OnlineShop.Models.Trip
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br /><br /><br />
+<h2 align="center" style="color:black">أضافة بيانات الرحلات</h2>
+
+<center><a href="~/admin/tripList" class="btn btn-dark">قائمة الرحلات</a></center>
+<div class="bg-white mb-3" style="padding: 30px;" dir="rtl">
+    @using (Html.BeginForm("addtrip", "admin", FormMethod.Post, new { name = "ss", enctype = "multipart/form-data" }))
+    {
+    <form dir="rtl">
+        <div class="form-group">
+            <p align="right">مكان الرحلة  </p>
+            <input type="text" class="form-control" name="tripplace" id="name" required>
+        </div>
+        <div class="form-group">
+            <p align="right">تاريخ الذهاب  </p>
+            <input type="text" name="godate" class="form-control p-4 datetimepicker-input" placeholder="dd-mm-yyyy" data-target="#date1" data-toggle="datetimepicker" required />
+        </div>
+        <div class="form-group">
+            <p align="right">تاريخ العودة  </p>
+            <input type="text" name="comingdate" class="form-control p-4 datetimepicker-input" placeholder="dd-mm-yyyy" data-target="#date1" data-toggle="datetimepicker" required />
+        </div>
+
+        <div class="form-group">
+            <p align="right">مدينة الاقلاع  </p>
+            <input type="text" name="city" class="form-control" id="website" required>
+        </div>
+        <div class="form-group">
+            <p align="right">وسيلة السفر  </p>
+            <input type="text" name="travelmethod" class="form-control" id="website" required>
+        </div>
+        <div class="form-group">
+            <p align="right">معاد اقلاع وسيلة السفر   </p>
+            <input type="time" name="time" class="form-control" id="website" required>
+        </div>
+        <div class="form-group">
+            <p align="right">اسم الفندق  </p>
+            <input type="text" name="hotel" class="form-control" id="website" required>
+        </div>
+        <div class="form-group">
+            <p align="right">سعر الرحلة   </p>
+            <input type="text" name="childprice" class="form-control" id="website" required>
+        </div>
+
+        <div class="form-group">
+            <p align="right">وصف الرحلة  </p>
+            <textarea cols="50" name="traveldes" type="text" class="form-control" id="website" required></textarea>
+        </div>
+        <div class="form-group">
+            <p align="right">نوع الرحلة  </p>
+            <select class="form-control" name="type">
+                <option value="رحلات داخلية"> رحلات داخلية</option>
+                <option value="رحلات خارجية"> رحلات خارجية</option>
+
+
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p align="right">صورة الرحلة  </p>
+            <input type="file" name="imgfile" class="form-control" id="inputPassword3" required>
+        </div>
+
+        <div class="form-group mb-0">
+            <input type="submit" value="ارسال بيانات الرحلة"
+                   class="btn btn-danger">
+        </div>
+    </form>
+    }
+    </div>

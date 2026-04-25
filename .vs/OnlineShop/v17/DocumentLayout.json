@@ -1,0 +1,1052 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\extensions\\dataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\extensions\\dataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\guids.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\guids.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\transports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\transports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\hotels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\hotels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425201208_AddTransportaion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop\\Migrations\\20260425201208_AddTransportaion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\admin\\booklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\booklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\admin\\createtransport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\createtransport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\dtos\\transportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\dtos\\transportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\dtos\\hoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\dtos\\hoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\admin\\transportationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\transportationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\transportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\transportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425195713_AddTransportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop\\Migrations\\20260425195713_AddTransportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\admin\\hotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\hotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425192811_Init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop\\Migrations\\20260425192811_Init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\allproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\allproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\alltrips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\alltrips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\bookinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\bookinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\tripdetials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\tripdetials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\admin\\guidlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\guidlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\admin\\createhotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\createhotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425162631_Init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop\\Migrations\\20260425162631_Init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\admin\\addtrip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\addtrip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmmm\\AppData\\Local\\Temp\\w1ii4i4g..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\migrations\\20260425113406_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\migrations\\20260425113406_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\extensions\\appusersandrolesseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\extensions\\appusersandrolesseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\opinlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\opinlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\home\\opin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\opin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\views\\admin\\triplist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\triplist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\triplist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\triplist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\guidlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\guidlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\guid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\guid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\booklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\booklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\opin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\opin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\onlineshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\onlineshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\furniture\\onlineshop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.datatables.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.datatables.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmmm\\AppData\\Local\\Temp\\w1ii4i4g..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmmm\\AppData\\Local\\Temp\\w1ii4i4g..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "OnlineShop\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "OnlineShop\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAANwCAAAAAAAAAAAAAOkCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-02T19:19:49.191Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Hotels.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\Hotels.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Hotels.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\Hotels.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\Hotels.cshtml",
+              "ViewState": "AgIAAFkBAAAAAAAAAAAAAGABAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T18:48:30.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OnlineShop\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAApwAoBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:09:48.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "booking.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\booking.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\booking.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\booking.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\booking.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:25.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataSeeding.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Extensions\\DataSeeding.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Extensions\\DataSeeding.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Extensions\\DataSeeding.cs",
+              "RelativeToolTip": "OnlineShop\\Extensions\\DataSeeding.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAwwLYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T20:37:24.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Guids.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\Guids.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Guids.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\Guids.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\Guids.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:31.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Index.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\Index.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:34.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Transports.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\Transports.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Transports.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\Transports.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\Transports.cshtml",
+              "ViewState": "AgIAAFwBAAAAAAAAAAAAAGIBAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T20:12:53.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260425201208_AddTransportaion2.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425201208_AddTransportaion2.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425201208_AddTransportaion2.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425201208_AddTransportaion2.cs",
+              "RelativeToolTip": "OnlineShop\\Migrations\\20260425201208_AddTransportaion2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T20:12:08.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateTransport.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\CreateTransport.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\CreateTransport.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\CreateTransport.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\CreateTransport.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T20:06:03.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TransportDto.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Dtos\\TransportDto.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Dtos\\TransportDto.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Dtos\\TransportDto.cs",
+              "RelativeToolTip": "OnlineShop\\Dtos\\TransportDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T20:07:08.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TransportationIndex.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\TransportationIndex.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\TransportationIndex.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\TransportationIndex.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\TransportationIndex.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T20:05:35.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HotelDto.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Dtos\\HotelDto.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Dtos\\HotelDto.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Dtos\\HotelDto.cs",
+              "RelativeToolTip": "OnlineShop\\Dtos\\HotelDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:20:32.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "adminController.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Controllers\\adminController.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Controllers\\adminController.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Controllers\\adminController.cs",
+              "RelativeToolTip": "OnlineShop\\Controllers\\adminController.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAA1wKQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:05:58.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "bookList.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\bookList.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\bookList.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\bookList.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\bookList.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAwwEUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:28:40.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260425195713_AddTransportaion.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425195713_AddTransportaion.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425195713_AddTransportaion.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425195713_AddTransportaion.cs",
+              "RelativeToolTip": "OnlineShop\\Migrations\\20260425195713_AddTransportaion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T19:57:13.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HotelIndex.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\HotelIndex.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\HotelIndex.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\HotelIndex.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\HotelIndex.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T16:17:48.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Transportaion.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\Transportaion.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\Transportaion.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\Transportaion.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\Transportaion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T19:52:54.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\Index.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\Index.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwBQAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T15:53:09.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext .cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Data\\ApplicationDbContext .cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Data\\ApplicationDbContext .cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Data\\ApplicationDbContext .cs",
+              "RelativeToolTip": "OnlineShop\\Data\\ApplicationDbContext .cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAABCwBMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T17:50:46.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\Hotel.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\Hotel.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:14:15.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260425192811_Init3.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425192811_Init3.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425192811_Init3.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425192811_Init3.cs",
+              "RelativeToolTip": "OnlineShop\\Migrations\\20260425192811_Init3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T19:28:11.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_LayoutHome.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
+              "ViewState": "AgIAAGUBAAAAAAAAAAAwwHIBAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:45:27.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_Layout.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\shared\\_Layout.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\shared\\_Layout.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwC8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:42:57.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "booking.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\booking.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\booking.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\booking.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\booking.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:01:00.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "allproject.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\allproject.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\allproject.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\allproject.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\allproject.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:16:19.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "alltrips.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\alltrips.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\alltrips.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\alltrips.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\alltrips.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:16.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "bookingList.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\bookingList.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\bookingList.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\bookingList.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\bookingList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:28.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "customer.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\customer.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\customer.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\customer.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:01:34.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:45:39.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Controllers\\UserController.cs",
+              "RelativeToolTip": "OnlineShop\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAMBBwBQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T19:03:05.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "tripdetials.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\tripdetials.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\tripdetials.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\tripdetials.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\tripdetials.cshtml",
+              "ViewState": "AgIAAPIBAAAAAAAAAAAAAP8BAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:54.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "signup.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\signup.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\signup.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\signup.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\signup.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwF4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:49.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\login.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\login.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\login.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\login.cshtml",
+              "ViewState": "AgIAAG8BAAAAAAAAAAAgwHgBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T18:41:08.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "userlist.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\userlist.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\userlist.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\userlist.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\userlist.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:07.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "guidList.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\guidList.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\guidList.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\guidList.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\guidList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:28:49.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateHotel.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\CreateHotel.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\CreateHotel.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\CreateHotel.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\CreateHotel.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T16:24:26.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260425162631_Init2.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425162631_Init2.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425162631_Init2.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425162631_Init2.cs",
+              "RelativeToolTip": "OnlineShop\\Migrations\\20260425162631_Init2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:26:32.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "addtrip.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\addtrip.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\addtrip.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\addtrip.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\addtrip.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:28:30.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "OnlineShop\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "OnlineShop\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAHQBAAAAAAAAAAAzwIcBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-25T16:06:08.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\appsettings.json",
+              "RelativeDocumentMoniker": "OnlineShop\\appsettings.json",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\appsettings.json",
+              "RelativeToolTip": "OnlineShop\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-04T19:08:56.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20260425113406_Init.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425113406_Init.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425113406_Init.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Migrations\\20260425113406_Init.cs",
+              "RelativeToolTip": "OnlineShop\\Migrations\\20260425113406_Init.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:34:08.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Trip.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\Trip.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\Trip.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\Trip.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\Trip.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:02:49.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\ahmmm\\AppData\\Local\\Temp\\w1ii4i4g..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-25T13:06:47.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "opin.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\opin.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\opin.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\opin.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\opin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:39.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Program.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Program.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Program.cs",
+              "RelativeToolTip": "OnlineShop\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAIA0wC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T21:33:18.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AppUsersAndRolesSeeding.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Extensions\\AppUsersAndRolesSeeding.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Extensions\\AppUsersAndRolesSeeding.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Extensions\\AppUsersAndRolesSeeding.cs",
+              "RelativeToolTip": "OnlineShop\\Extensions\\AppUsersAndRolesSeeding.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIA2wAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T17:52:12.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "opinList.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\opinList.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\opinList.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\opinList.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\opinList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:42.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Service.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\Service.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Service.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\home\\Service.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\Service.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:46.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "tripList.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\tripList.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\tripList.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Views\\admin\\tripList.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\tripList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:00.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "triplist.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\triplist.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\triplist.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\triplist.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\triplist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:23:04.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "bookModel.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\bookModel.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\bookModel.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\bookModel.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\bookModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:17:45.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "guidList.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\guidList.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\guidList.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\guidList.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\guidList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:16:28.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "booklist.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\booklist.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\booklist.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\booklist.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\booklist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:16:12.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "opin.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\opin.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\opin.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\opin.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\opin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:02:26.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "guid.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\guid.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\guid.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\guid.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\guid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:02:02.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\Order.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\Order.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\Order.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T13:08:22.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "OnlineShop.csproj",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\OnlineShop.csproj",
+              "RelativeDocumentMoniker": "OnlineShop\\OnlineShop.csproj",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\OnlineShop.csproj",
+              "RelativeToolTip": "OnlineShop\\OnlineShop.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-18T12:55:56.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\Product.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\Models\\Product.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\Product.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwCIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-02T17:48:14.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
+              "ViewState": "AgIAAJsCAAAAAAAAAAAnwKYCAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-04T18:28:07.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "buttons.dataTables.min.css",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.dataTables.min.css",
+              "RelativeDocumentMoniker": "OnlineShop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.dataTables.min.css",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\Furniture\\OnlineShop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.dataTables.min.css",
+              "RelativeToolTip": "OnlineShop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.dataTables.min.css",
+              "ViewState": "AgIAAGMCAAAAAAAAAAA3wHgCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-04T17:39:25.004Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

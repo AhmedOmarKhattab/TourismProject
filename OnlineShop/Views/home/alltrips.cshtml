@@ -1,0 +1,429 @@
+﻿@model OnlineShop.Models.allproject
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+@section head {
+    <style>
+        .trips-page {
+            padding-top: 100px;
+            min-height: 100vh;
+            background: var(--navy);
+        }
+
+        /* ── PAGE HERO BANNER ── */
+        .page-banner {
+            background: var(--navy-mid);
+            padding: 60px 0 50px;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 1px solid rgba(201,168,76,0.15);
+        }
+
+            .page-banner::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: radial-gradient(ellipse at 70% 50%, rgba(201,168,76,0.07) 0%, transparent 70%);
+            }
+
+        .page-banner-inner {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 0 60px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .page-banner .section-label {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 12px;
+        }
+
+        .page-banner h1 {
+            font-size: 2.6rem;
+            font-weight: 900;
+            color: var(--white);
+            line-height: 1.2;
+            margin-bottom: 12px;
+        }
+
+        .page-banner p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            max-width: 480px;
+            line-height: 1.8;
+        }
+
+        .breadcrumb-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 20px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+            .breadcrumb-row a {
+                color: var(--gold);
+                text-decoration: none;
+            }
+
+            .breadcrumb-row i {
+                font-size: 0.65rem;
+            }
+
+        /* ── TRIPS GRID ── */
+        .trips-content {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 60px 60px 100px;
+        }
+
+        .trips-count {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 32px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+
+            .trips-count span {
+                color: var(--gold);
+                font-weight: 700;
+            }
+
+        .trips-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+        }
+
+        /* ── TRIP CARD ── */
+        .trip-card {
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.1);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.35s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+            .trip-card:hover {
+                transform: translateY(-8px);
+                border-color: rgba(201,168,76,0.35);
+                box-shadow: 0 24px 50px rgba(0,0,0,0.4);
+            }
+
+        .trip-img-wrap {
+            position: relative;
+            overflow: hidden;
+            height: 210px;
+            flex-shrink: 0;
+        }
+
+            .trip-img-wrap img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.5s ease;
+                display: block;
+            }
+
+        .trip-card:hover .trip-img-wrap img {
+            transform: scale(1.08);
+        }
+
+        .trip-img-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(10,22,40,0.7) 0%, transparent 55%);
+        }
+
+        .trip-type-badge {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            background: rgba(201,168,76,0.9);
+            color: var(--navy);
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            padding: 5px 12px;
+            border-radius: 50px;
+        }
+
+        /* card body */
+        .trip-body {
+            padding: 22px 24px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .trip-route {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 16px;
+        }
+
+        .trip-city {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--white);
+        }
+
+        .trip-arrow {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            flex: 1;
+        }
+
+        .trip-arrow-line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, var(--gold-dark), var(--gold));
+            position: relative;
+        }
+
+        .trip-arrow i {
+            color: var(--gold);
+            font-size: 0.75rem;
+            flex-shrink: 0;
+        }
+
+        .trip-destination {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--gold-light);
+        }
+
+        .trip-meta {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .trip-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
+            .trip-meta-item i {
+                color: var(--gold);
+                font-size: 0.72rem;
+            }
+
+        .trip-footer {
+            margin-top: auto;
+            padding-top: 16px;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .btn-trip-details {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+            border: none;
+            border-radius: 7px;
+            color: var(--navy);
+            font-family: 'Cairo', sans-serif;
+            font-size: 0.92rem;
+            font-weight: 700;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+            .btn-trip-details:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 22px rgba(201,168,76,0.4);
+                color: var(--navy);
+                text-decoration: none;
+            }
+
+            .btn-trip-details i {
+                font-size: 0.85rem;
+            }
+
+        /* ── EMPTY STATE ── */
+        .empty-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+            .empty-state i {
+                font-size: 3.5rem;
+                color: rgba(201,168,76,0.3);
+                margin-bottom: 20px;
+                display: block;
+            }
+
+            .empty-state h3 {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: var(--white);
+                margin-bottom: 10px;
+            }
+
+            .empty-state p {
+                font-size: 0.9rem;
+                color: var(--text-muted);
+            }
+
+        /* ── RESPONSIVE ── */
+        @@media (max-width: 1024px) {
+            .trips-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .trips-content {
+                padding: 40px 32px 80px;
+            }
+
+            .page-banner-inner {
+                padding: 0 32px;
+            }
+        }
+
+        @@media (max-width: 640px) {
+            .trips-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .trips-content {
+                padding: 32px 20px 60px;
+            }
+
+            .page-banner-inner {
+                padding: 0 20px;
+            }
+
+            .page-banner h1 {
+                font-size: 1.9rem;
+            }
+        }
+    </style>
+}
+
+<div class="trips-page">
+
+    <!-- ── BANNER ── -->
+    <div class="page-banner">
+        <div class="page-banner-inner">
+            <span class="section-label">وجهاتنا</span>
+            <h1>جميع الرحلات المتاحة</h1>
+            <p>اكتشف رحلاتنا الداخلية والخارجية واحجز مقعدك بكل سهولة وأمان</p>
+            <div class="breadcrumb-row">
+                <a href="../Home/Index?email=@Model.email">الرئيسية</a>
+                <i class="fas fa-chevron-left"></i>
+                <span>الرحلات</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── CONTENT ── -->
+    <div class="trips-content">
+
+        @if (Model.triplists != null && Model.triplists.Any())
+        {
+            <div class="trips-count">
+                عرض <span>@Model.triplists.Count()</span> رحلة متاحة
+            </div>
+
+            <div class="trips-grid">
+                @foreach (var item in Model.triplists)
+                {
+                    <div class="trip-card">
+                        <div class="trip-img-wrap">
+                            <img src="~/files/images/@item.image" alt="رحلة من @item.city إلى @item.tripplace">
+                            <div class="trip-img-overlay"></div>
+                            <span class="trip-type-badge">
+                                <i class="fas fa-plane" style="margin-left:4px;font-size:0.65rem"></i>رحلة
+                            </span>
+                        </div>
+
+                        <div class="trip-body">
+                            <div class="trip-route">
+                                <span class="trip-city">@item.city</span>
+                                <div class="trip-arrow">
+                                    <div class="trip-arrow-line"></div>
+                                    <i class="fas fa-chevron-left"></i>
+                                </div>
+                                <span class="trip-destination">@item.tripplace</span>
+                            </div>
+
+                            <div class="trip-meta">
+                                <div class="trip-meta-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>@item.city</span>
+                                </div>
+                                <div class="trip-meta-item">
+                                    <i class="fas fa-flag"></i>
+                                    <span>@item.tripplace</span>
+                                </div>
+                            </div>
+
+                            <div class="trip-footer">
+                                <a href="../Home/tripdetials?tripid=@item.Id&email=@Model.email" class="btn-trip-details">
+                                    <i class="fas fa-info-circle"></i>
+                                    تفاصيل الرحلة
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="trips-grid">
+                <div class="empty-state">
+                    <i class="fas fa-plane-slash"></i>
+                    <h3>لا توجد رحلات متاحة حالياً</h3>
+                    <p>يرجى المحاولة مرة أخرى لاحقاً أو تصفح أنواع رحلات أخرى</p>
+                </div>
+            </div>
+        }
+
+    </div>
+</div>
+
+@section scripts {
+    <script>
+    // Staggered card entrance animation
+    var cards = document.querySelectorAll('.trip-card');
+    var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.08 });
+
+    cards.forEach(function(card, i) {
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(32px)';
+        card.style.transition = 'opacity 0.5s ease ' + (i * 0.07) + 's, transform 0.5s ease ' + (i * 0.07) + 's';
+        observer.observe(card);
+    });
+    </script>
+}

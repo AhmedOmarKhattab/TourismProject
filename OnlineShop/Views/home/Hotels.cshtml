@@ -1,0 +1,372 @@
+﻿@model List<Hotel>
+@{
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+    var tripId = ViewBag.tripid != null ? ViewBag.tripid.ToString() : "0";
+    var email = ViewBag.email != null ? ViewBag.email.ToString() : "";
+}
+
+@section head {
+    <style>
+        .hotels-page {
+            padding-top: 100px;
+            min-height: 100vh;
+            background: var(--navy);
+        }
+
+        .page-banner {
+            background: var(--navy-mid);
+            padding: 60px 0 50px;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 1px solid rgba(201,168,76,0.15);
+        }
+
+            .page-banner::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: radial-gradient(ellipse at 70% 50%, rgba(201,168,76,0.07) 0%, transparent 70%);
+            }
+
+        .page-banner-inner {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 0 60px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .section-label {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gold);
+            margin-bottom: 12px;
+        }
+
+        .page-banner h1 {
+            font-size: 2.6rem;
+            font-weight: 900;
+            color: var(--white);
+            line-height: 1.2;
+            margin-bottom: 12px;
+        }
+
+        .page-banner p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            max-width: 480px;
+            line-height: 1.8;
+        }
+
+        .breadcrumb-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 20px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+            .breadcrumb-row a {
+                color: var(--gold);
+                text-decoration: none;
+            }
+
+            .breadcrumb-row i {
+                font-size: 0.65rem;
+            }
+
+        .hotels-content {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 60px 60px 100px;
+        }
+
+        .hotels-count {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 32px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+
+            .hotels-count span {
+                color: var(--gold);
+                font-weight: 700;
+            }
+
+        .hotels-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+        }
+
+        .hotel-card {
+            background: var(--navy-mid);
+            border: 1px solid rgba(201,168,76,0.1);
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+        }
+
+            .hotel-card:hover {
+                transform: translateY(-8px);
+                border-color: rgba(201,168,76,0.35);
+                box-shadow: 0 24px 50px rgba(0,0,0,0.4);
+            }
+
+        .hotel-img-wrap {
+            position: relative;
+            overflow: hidden;
+            height: 210px;
+            flex-shrink: 0;
+        }
+
+            .hotel-img-wrap img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+                transition: transform 0.5s ease;
+            }
+
+        .hotel-card:hover .hotel-img-wrap img {
+            transform: scale(1.08);
+        }
+
+        .hotel-img-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(10,22,40,0.75) 0%, transparent 55%);
+        }
+
+        .hotel-badge {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            background: rgba(201,168,76,0.9);
+            color: var(--navy);
+            font-size: 0.72rem;
+            font-weight: 700;
+            padding: 5px 12px;
+            border-radius: 50px;
+        }
+
+        .hotel-body {
+            padding: 22px 24px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .hotel-name {
+            font-size: 1.08rem;
+            font-weight: 800;
+            color: var(--white);
+            line-height: 1.3;
+        }
+
+        .hotel-desc {
+            font-size: 0.83rem;
+            color: var(--text-muted);
+            line-height: 1.75;
+            flex: 1;
+        }
+
+        .hotel-footer {
+            margin-top: auto;
+            padding-top: 14px;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .btn-select {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+            border-radius: 7px;
+            color: var(--navy);
+            font-family: 'Cairo', sans-serif;
+            font-size: 0.92rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+            .btn-select:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 22px rgba(201,168,76,0.4);
+                color: var(--navy);
+                text-decoration: none;
+            }
+
+        .hotel-price {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(201,168,76,0.07);
+            border: 1px solid rgba(201,168,76,0.18);
+            border-radius: 8px;
+            padding: 10px 16px;
+        }
+
+        .price-label {
+            font-size: 0.74rem;
+            color: var(--text-muted);
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .price-amount {
+            font-size: 1.15rem;
+            font-weight: 900;
+            color: var(--gold-light);
+        }
+
+        .price-currency {
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-right: 3px;
+        }
+
+        .empty-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+            .empty-state i {
+                font-size: 3.5rem;
+                color: rgba(201,168,76,0.3);
+                margin-bottom: 20px;
+                display: block;
+            }
+
+            .empty-state h3 {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: var(--white);
+                margin-bottom: 10px;
+            }
+
+            .empty-state p {
+                font-size: 0.9rem;
+                color: var(--text-muted);
+            }
+
+        @@media (max-width: 1024px) {
+            .hotels-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .hotels-content {
+                padding: 40px 32px 80px;
+            }
+
+            .page-banner-inner {
+                padding: 0 32px;
+            }
+        }
+
+        @@media (max-width: 640px) {
+            .hotels-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hotels-content {
+                padding: 32px 20px 60px;
+            }
+
+            .page-banner-inner {
+                padding: 0 20px;
+            }
+
+            .page-banner h1 {
+                font-size: 1.9rem;
+            }
+        }
+    </style>
+}
+
+<div class="hotels-page">
+
+    <div class="page-banner">
+        <div class="page-banner-inner">
+            <span class="section-label">اختر فندقك</span>
+            <h1>الفنادق المتاحة</h1>
+            <p>اختر الفندق المناسب لرحلتك واستمتع بإقامة مريحة ولا تُنسى</p>
+            <div class="breadcrumb-row">
+                <a href="../Home/Index?email=@email">الرئيسية</a>
+                <i class="fas fa-chevron-left"></i>
+                <a href="../Home/alltrips?email=@email">الرحلات</a>
+                <i class="fas fa-chevron-left"></i>
+                <span>اختيار الفندق</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="hotels-content">
+
+        <div class="hotels-count">
+            عرض <span>@Model.Count</span> فندق متاح
+        </div>
+
+        <div class="hotels-grid">
+
+            @if (!Model.Any())
+            {
+                <div class="empty-state">
+                    <i class="fas fa-hotel"></i>
+                    <h3>لا توجد فنادق متاحة حالياً</h3>
+                    <p>يرجى المحاولة مرة أخرى لاحقاً</p>
+                </div>
+            }
+            else
+            {
+                foreach (var hotel in Model)
+                {
+                    <div class="hotel-card">
+
+                        <div class="hotel-img-wrap">
+                            <img src="~/files/images/@hotel.ImageUrl" alt="@hotel.Name">
+                            <div class="hotel-img-overlay"></div>
+                            <span class="hotel-badge">
+                                <i class="fas fa-hotel" style="margin-left:4px;font-size:0.65rem"></i>فندق
+                            </span>
+                        </div>
+
+                        <div class="hotel-body">
+                            <h3 class="hotel-name">@hotel.Name</h3>
+                            <p class="hotel-desc">@hotel.Description</p>
+
+                            <div class="hotel-price">
+                                <span class="price-label">سعر الليلة</span>
+                                <span class="price-amount">@hotel.Price <span class="price-currency">جنيه</span></span>
+                            </div>
+
+                            <div class="hotel-footer">
+                                <a href="@Url.Action("Transports", "Home", new { tripid = tripId, email = email, hotel = hotel.Name })"
+                                   class="btn-select">
+                                    <i class="fas fa-check-circle"></i>
+                                    اختيار هذا الفندق
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                }
+            }
+
+        </div>
+    </div>
+</div>
