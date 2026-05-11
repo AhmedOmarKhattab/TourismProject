@@ -20,7 +20,7 @@ namespace BrightMinds.Api.Extensions
                      new customer { email = "a@gmail.com", name = ".lll", password = "123", adress = "lll", phone = "55555" },
                      new customer { email = "ahmed@gmail.com", name = "ooo", password = "123", adress = "ee", phone = "111111" },
                      new customer { email = "hager@yahoo.com", name = "hager", password = "123456", adress = "egyption", phone = "0216548486" },
-                     new customer { email = "hagergg@yahoo.com", name = "رمسيس", password = "123456", adress = null, phone = "0115465465" },
+                     new customer { email = "hagergg@yahoo.com", name = "رمسيس", password = "123456", adress = "alex", phone = "0115465465" },
                      new customer { email = "hh@yahoo.com", name = "ahmed yaser", password = "123456", adress = "egyption", phone = "01154654684" },
                      new customer { email = "uu500@yahoo.com", name = "lela ahmed", password = "546848", adress = "egyption", phone = "01545464646" },
                      new customer { email = "ytr300@yahoo.com", name = "lela ahmed", password = "78915456", adress = "egyption", phone = "01154544488" },
@@ -107,7 +107,8 @@ namespace BrightMinds.Api.Extensions
         tripid = 17,
         phone = "01094517235",
         email = "hager@yahoo.com",
-        date = DateTime.Parse("5/18/2024 3:58:41 AM")
+        date = DateTime.Parse("5/18/2024 3:58:41 AM"),
+        transport="Car"
     },
     new booking
     {
@@ -117,7 +118,8 @@ namespace BrightMinds.Api.Extensions
         tripid = 17,
         phone = "222",
         email = "ahmed@gmail.com",
-        date = DateTime.Parse("4/19/2026 1:22:55 AM")
+        date = DateTime.Parse("4/19/2026 1:22:55 AM"),
+        transport="bus"
     },
     new booking
     {
@@ -127,7 +129,8 @@ namespace BrightMinds.Api.Extensions
         tripid = 17,
         phone = "eee",
         email = "ahmed@gmail.com",
-        date = DateTime.Parse("4/19/2026 1:25:16 AM")
+        date = DateTime.Parse("4/19/2026 1:25:16 AM"),
+        transport="airplane"
     }
 };
                 context.AddRange(bookings);
