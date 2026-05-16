@@ -95,47 +95,6 @@ namespace BrightMinds.Api.Extensions
                 await context.SaveChangesAsync();
 
             }
-            if(!context.bookings.Any())
-            {
-                var bookings = new List<booking>
-{
-    new booking
-    {
-        name = "اسلام فايق",
-        travelerNo = 2,
-        idcard = "498498959849864",
-        tripid = 17,
-        phone = "01094517235",
-        email = "hager@yahoo.com",
-        date = DateTime.Parse("5/18/2024 3:58:41 AM"),
-        transport="Car"
-    },
-    new booking
-    {
-        name = "233",
-        travelerNo = 1,
-        idcard = "55555555555555",
-        tripid = 17,
-        phone = "222",
-        email = "ahmed@gmail.com",
-        date = DateTime.Parse("4/19/2026 1:22:55 AM"),
-        transport="bus"
-    },
-    new booking
-    {
-        name = "ww",
-        travelerNo = 1,
-        idcard = "22222222222222",
-        tripid = 17,
-        phone = "eee",
-        email = "ahmed@gmail.com",
-        date = DateTime.Parse("4/19/2026 1:25:16 AM"),
-        transport="airplane"
-    }
-};
-                context.AddRange(bookings);
-                await context.SaveChangesAsync();
-            }
             if(!context.Hotels.Any())
             {
                 var hotels = new List<Hotel>
