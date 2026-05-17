@@ -64,6 +64,7 @@ wwwroot\files\SiteImages\left.png
 wwwroot\files\SiteImages\location.png
 wwwroot\files\SiteImages\logo.jpg
 wwwroot\files\SiteImages\logo.PNG
+wwwroot\files\SiteImages\logo2.jpg
 wwwroot\files\SiteImages\man_cartoon.png
 wwwroot\files\SiteImages\phone_icon.png
 wwwroot\files\SiteImages\png-clipart.png
@@ -2256,6 +2257,8 @@ wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\charts\chart.js
+wwwroot\lib\charts\chartts.js
 wwwroot\lib\datatables-buttons\css\buttons.dataTables.min.css
 wwwroot\lib\datatables-buttons\js\buttons.colVis.js
 wwwroot\lib\datatables-buttons\js\buttons.colVis.min.js

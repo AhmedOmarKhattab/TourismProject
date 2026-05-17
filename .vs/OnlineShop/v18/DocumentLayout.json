@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\React\\TourismProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\wwwroot\\lib\\charts\\chartts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\wwwroot\\lib\\charts\\chartts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\extensions\\dataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\extensions\\dataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\transportationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\models\\transportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\transportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -87,14 +103,6 @@
       "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\models\\allproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\allproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -113,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\react\\tourismproject\\onlineshop\\views\\home\\tripdetials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -252,23 +256,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "booking.cshtml",
-              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\booking.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\booking.cshtml",
-              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\booking.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\home\\booking.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-11T07:09:06.939Z"
+              "Title": "chartts.js",
+              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\wwwroot\\lib\\charts\\chartts.js",
+              "RelativeDocumentMoniker": "OnlineShop\\wwwroot\\lib\\charts\\chartts.js",
+              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\wwwroot\\lib\\charts\\chartts.js",
+              "RelativeToolTip": "OnlineShop\\wwwroot\\lib\\charts\\chartts.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-17T07:24:43.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "DataSeeding.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Extensions\\DataSeeding.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Extensions\\DataSeeding.cs",
@@ -276,36 +280,49 @@
               "RelativeToolTip": "OnlineShop\\Extensions\\DataSeeding.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAAAGEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T07:09:06.941Z",
+              "WhenOpened": "2026-05-11T07:09:06.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\Index.cshtml",
+              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\Index.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\Index.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T07:09:06.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_Layout.cshtml",
+              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\shared\\_Layout.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T07:09:07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Guids.cshtml",
-              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\Guids.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Guids.cshtml",
-              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\Guids.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\home\\Guids.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_LayoutHome.cshtml",
+              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
+              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-11T07:09:06.943Z"
+              "WhenOpened": "2026-05-11T07:09:06.998Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\Index.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Index.cshtml",
-              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\Index.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-11T07:09:06.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Transports.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\Transports.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Transports.cshtml",
@@ -318,19 +335,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\appsettings.json",
-              "RelativeDocumentMoniker": "OnlineShop\\appsettings.json",
-              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\appsettings.json",
-              "RelativeToolTip": "OnlineShop\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-11T07:09:07.035Z",
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
+              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T07:09:07.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AppUsersAndRolesSeeding.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Extensions\\AppUsersAndRolesSeeding.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Extensions\\AppUsersAndRolesSeeding.cs",
@@ -338,12 +355,59 @@
               "RelativeToolTip": "OnlineShop\\Extensions\\AppUsersAndRolesSeeding.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIA2wAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T07:09:07.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T07:09:07.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\appsettings.json",
+              "RelativeDocumentMoniker": "OnlineShop\\appsettings.json",
+              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\appsettings.json",
+              "RelativeToolTip": "OnlineShop\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-11T07:09:07.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Index.cshtml",
+              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\Index.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T07:09:06.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Guids.cshtml",
+              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\Guids.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Guids.cshtml",
+              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\Guids.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\Guids.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T07:09:06.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "booking.cshtml",
+              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\booking.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\booking.cshtml",
+              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\booking.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\booking.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-11T07:09:06.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Controllers\\HomeController.cs",
@@ -355,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Hotels.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\Hotels.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Hotels.cshtml",
@@ -367,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "site.css",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "OnlineShop\\wwwroot\\css\\site.css",
@@ -379,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "20260425201208_AddTransportaion2.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Migrations\\20260425201208_AddTransportaion2.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425201208_AddTransportaion2.cs",
@@ -391,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "CreateTransport.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\CreateTransport.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\CreateTransport.cshtml",
@@ -403,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "TransportDto.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Dtos\\TransportDto.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Dtos\\TransportDto.cs",
@@ -415,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "TransportationIndex.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\TransportationIndex.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\TransportationIndex.cshtml",
@@ -427,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "HotelDto.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Dtos\\HotelDto.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Dtos\\HotelDto.cs",
@@ -439,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "adminController.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Controllers\\adminController.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Controllers\\adminController.cs",
@@ -451,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "bookList.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\bookList.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\bookList.cshtml",
@@ -463,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "20260425195713_AddTransportaion.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Migrations\\20260425195713_AddTransportaion.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425195713_AddTransportaion.cs",
@@ -475,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "HotelIndex.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\HotelIndex.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\HotelIndex.cshtml",
@@ -487,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Transportaion.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\Transportaion.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\Transportaion.cs",
@@ -499,19 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\Index.cshtml",
-              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\Index.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\admin\\Index.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwBQAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-11T07:09:06.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "ApplicationDbContext .cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Data\\ApplicationDbContext .cs",
               "RelativeDocumentMoniker": "OnlineShop\\Data\\ApplicationDbContext .cs",
@@ -523,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Hotel.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\Hotel.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\Hotel.cs",
@@ -535,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "20260425192811_Init3.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Migrations\\20260425192811_Init3.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425192811_Init3.cs",
@@ -547,31 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_LayoutHome.cshtml",
-              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
-              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
-              "ViewState": "AgIAAGUBAAAAAAAAAAAwwHIBAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-11T07:09:06.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_Layout.cshtml",
-              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\shared\\_Layout.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\shared\\_Layout.cshtml",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwC8AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-11T07:09:07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "booking.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\booking.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\booking.cs",
@@ -583,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "allproject.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\allproject.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\allproject.cs",
@@ -595,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "alltrips.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\alltrips.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\alltrips.cshtml",
@@ -607,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "bookingList.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\bookingList.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\bookingList.cshtml",
@@ -619,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "customer.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\customer.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\customer.cs",
@@ -631,19 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "_LayoutLogin.cshtml",
-              "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
-              "ToolTip": "D:\\React\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-11T07:09:07.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Controllers\\UserController.cs",
@@ -655,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "tripdetials.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\tripdetials.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\tripdetials.cshtml",
@@ -667,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "signup.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\signup.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\signup.cshtml",
@@ -679,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "login.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\login.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\login.cshtml",
@@ -691,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "userlist.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\userlist.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\userlist.cshtml",
@@ -703,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "guidList.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\guidList.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\guidList.cshtml",
@@ -715,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "CreateHotel.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\CreateHotel.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\CreateHotel.cshtml",
@@ -727,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "20260425162631_Init2.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Migrations\\20260425162631_Init2.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425162631_Init2.cs",
@@ -739,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "addtrip.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\addtrip.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\addtrip.cshtml",
@@ -751,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "style.css",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "OnlineShop\\wwwroot\\css\\style.css",
@@ -763,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "20260425113406_Init.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Migrations\\20260425113406_Init.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425113406_Init.cs",
@@ -775,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Trip.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\Trip.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\Trip.cs",
@@ -787,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "w1ii4i4g..sql",
               "DocumentMoniker": "C:\\Users\\ahmmm\\AppData\\Local\\Temp\\w1ii4i4g..sql",
               "ToolTip": "C:\\Users\\ahmmm\\AppData\\Local\\Temp\\w1ii4i4g..sql",
@@ -796,7 +812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "opin.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\opin.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\opin.cshtml",
@@ -808,7 +824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Program.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Program.cs",
@@ -820,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "opinList.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\opinList.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\opinList.cshtml",
@@ -832,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Service.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\home\\Service.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Service.cshtml",
@@ -844,7 +860,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "tripList.cshtml",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Views\\admin\\tripList.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\tripList.cshtml",
@@ -856,7 +872,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "triplist.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\triplist.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\triplist.cs",
@@ -868,7 +884,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "bookModel.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\bookModel.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\bookModel.cs",
@@ -880,7 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "guidList.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\guidList.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\guidList.cs",
@@ -892,7 +908,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "booklist.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\booklist.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\booklist.cs",
@@ -904,7 +920,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "opin.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\opin.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\opin.cs",
@@ -916,7 +932,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "guid.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\guid.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\guid.cs",
@@ -928,7 +944,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\Order.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\Order.cs",
@@ -940,7 +956,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "OnlineShop.csproj",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\OnlineShop.csproj",
               "RelativeDocumentMoniker": "OnlineShop\\OnlineShop.csproj",
@@ -952,7 +968,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\Models\\Product.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\Product.cs",
@@ -964,7 +980,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
@@ -974,7 +990,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "buttons.dataTables.min.css",
               "DocumentMoniker": "D:\\React\\TourismProject\\OnlineShop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.dataTables.min.css",
               "RelativeDocumentMoniker": "OnlineShop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.dataTables.min.css",
