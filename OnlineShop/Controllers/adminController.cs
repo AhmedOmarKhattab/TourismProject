@@ -76,19 +76,18 @@ namespace toursm.Controllers
             string img = DocumentSettings.UploadImage(imgfile, "images");
             Trip b = new Trip();
             b.tripplace = trip.tripplace;
-            b.travelmethod = trip.travelmethod;
             b.traveldes = trip.traveldes;
-            b.hotel = trip.hotel;
-            b.travelmethod = trip.travelmethod;
             b.time = trip.time;
             b.godate = trip.godate;
             //b.childprice = trip.childprice;
             //b.adultchild = trip.adultchild;
             b.image = img;
+            b.type = trip.type;
             //b.availableadultno = trip.availableadultno;
             //b.availablekideno = trip.availablekideno;
 
             b.comingdate = trip.comingdate;
+            b.tiketprice = trip.tiketprice;
             b.city = trip.city;
             _context.Trips.Add(b);
             _context.SaveChanges();

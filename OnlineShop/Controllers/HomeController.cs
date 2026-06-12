@@ -223,11 +223,9 @@ namespace toursm.Controllers
             //b.availableadultno = v.availableadultno;
             //b.availablekideno = v.availablekideno;
             b.comingdate = v.comingdate;
-            b.travelmethod = v.travelmethod;
             b.traveldes = v.traveldes;
             //b.childprice = v.childprice;
             //b.adultchild = v.adultchild;
-            b.hotel = v.hotel;
             b.image = v.image;
             b.city = v.city;
             b.tiketprice = v.tiketprice;
@@ -251,7 +249,7 @@ namespace toursm.Controllers
             b.tripplace = v.tripplace;
             b.godate = v.godate;
             b.comingdate = v.comingdate;
-            b.travelmethod = v.travelmethod;
+            b.travelmethod = transport;
             b.traveldes = v.traveldes;
             b.hotel = hotel;
             b.image = v.image;
