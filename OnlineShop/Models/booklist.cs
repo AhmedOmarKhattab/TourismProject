@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace OnlineShop.Models
+namespace Tourism_Project.Models
 {
     public class booklist
     {

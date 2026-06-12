@@ -10,14 +10,17 @@ wwwroot\files\images\155432567aswan.jpg
 wwwroot\files\images\1774883076sahel.jpg
 wwwroot\files\images\2060147782sahel.jpg
 wwwroot\files\images\2138675445alfa.png
+wwwroot\files\images\2c14960c-c9ac-4599-ae2e-c2cdba2d144cnova11.jpg
 wwwroot\files\images\305325071aswan.jpg
 wwwroot\files\images\311260811bluehole.jpg
 wwwroot\files\images\372668448download.jpg
 wwwroot\files\images\387622436team-1.jpg
+wwwroot\files\images\3a257818-fb03-4030-8196-c606a5d4442cnova11.jpg
 wwwroot\files\images\689900911team-3.jpg
 wwwroot\files\images\706557560bluehole.jpg
 wwwroot\files\images\713824742testimonial-3.jpg
 wwwroot\files\images\8687b58c-e813-4915-830f-e19c170f6fd7images.png
+wwwroot\files\images\9f56edf7-15cb-434a-9076-e46138dc5b98nova11.jpg
 wwwroot\files\images\bus.webp
 wwwroot\files\images\doc.jfif
 wwwroot\files\images\eac3270c-5704-4ec1-8112-05ce54e1c291testt.jpg
@@ -34,6 +37,7 @@ wwwroot\files\images\plane.webp
 wwwroot\files\images\ship.png
 wwwroot\files\images\train.jpg
 wwwroot\files\images\trl.jpg
+wwwroot\files\SiteImages\65ff8a43-4d3b-446c-8756-db501c3473b1f45e1c1f-bd77-4195-9a95-429de3e850b7download (1).jpeg
 wwwroot\files\SiteImages\about.png
 wwwroot\files\SiteImages\blog1.jpg
 wwwroot\files\SiteImages\blog2.jpg
@@ -70,6 +74,12 @@ wwwroot\files\SiteImages\phone_icon.png
 wwwroot\files\SiteImages\png-clipart.png
 wwwroot\files\SiteImages\right.png
 wwwroot\files\SiteImages\Riyadh.jpg
+wwwroot\files\SiteImages\room1.jpg
+wwwroot\files\SiteImages\room2.jpg
+wwwroot\files\SiteImages\room3.avif
+wwwroot\files\SiteImages\room4.webp
+wwwroot\files\SiteImages\room5.jpg
+wwwroot\files\SiteImages\room6.jpg
 wwwroot\files\SiteImages\s1.jpg
 wwwroot\files\SiteImages\s2.jpg
 wwwroot\files\SiteImages\s3.jpg

@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using OnlineShop.Enums;
+using Tourism_Project.Enums;
 using Stripe.Climate;
 
-namespace OnlineShop.Models
+namespace Tourism_Project.Models
 {
     public class Order
     {

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using OnlineShop.Dtos;
-using OnlineShop.Enums;
-using OnlineShop.Models;
+using Tourism_Project.Dtos;
+using Tourism_Project.Enums;
+using Tourism_Project.Models;
 
-namespace OnlineShop.Services
+namespace Tourism_Project.Services
 {
      public  interface IPaymentService
     {

@@ -1,14 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using OnlineShop.Data;
-using OnlineShop.Dtos;
-using OnlineShop.Helpers;
-using OnlineShop.Models;
+using Tourism_Project.Data;
+using Tourism_Project.Dtos;
+using Tourism_Project.Helpers;
+using Tourism_Project.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
+using Microsoft.EntityFrameworkCore;
 
 namespace toursm.Controllers
 {
@@ -193,7 +194,36 @@ namespace toursm.Controllers
             return RedirectToAction("HotelIndex");
 
         }
+		[HttpGet]
+          public async Task<IActionResult> GetHotelRooms(int hotelId)
+		{
+			var hotel = await _context.Hotels.FindAsync(hotelId);
 
+			var hotelRooms = await _context.HotelRooms
+				.Where(r => r.HotelId == hotelId)   // use Where, not FirstOrDefault
+				.ToListAsync();
 
-    }
+			ViewBag.HotelId = hotelId;
+			ViewBag.HotelName = hotel?.Name ?? "";
+
+			return View(hotelRooms);   // IEnumerable<HotelRoom>
+		}
+		[HttpPost]
+		public async Task<IActionResult> CreateRoom(HotelRoomDto  hotelRoomDto)
+        {
+           var imageUrl= DocumentSettings.UploadImage(hotelRoomDto.ImageUrl, "SiteImages");
+            var hotelRoom = new HotelRoom()
+            {
+                Name = hotelRoomDto.Name,
+                ImageUrl = imageUrl,
+                Description = hotelRoomDto.Description,
+                Price = hotelRoomDto.Price,
+                HotelId = hotelRoomDto.HotelId,
+            };
+
+			_context.Add(hotelRoom);
+			await _context.SaveChangesAsync();   // use async version
+			return RedirectToAction("GetHotelRooms", new { hotelId = hotelRoom.HotelId });
+		}
+	}
 }

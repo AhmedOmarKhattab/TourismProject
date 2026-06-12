@@ -1,4 +1,4 @@
-﻿namespace OnlineShop.Models
+﻿namespace Tourism_Project.Models
 {
     public class Hotel
     {
@@ -6,6 +6,6 @@
         public string Name { get; set; }
         public string Description { get; set; }
         public string ImageUrl { get; set; }
-        public decimal Price { get; set; }
+        public string Location { get; set; }
     }
 }

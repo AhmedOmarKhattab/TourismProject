@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using System.ComponentModel.DataAnnotations;
 
-namespace OnlineShop.Models
+namespace Tourism_Project.Models
 {
 	public class RegisterModel
 	{

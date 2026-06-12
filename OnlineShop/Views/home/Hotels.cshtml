@@ -349,13 +349,10 @@
                             <h3 class="hotel-name">@hotel.Name</h3>
                             <p class="hotel-desc">@hotel.Description</p>
 
-                            <div class="hotel-price">
-                                <span class="price-label">سعر الليلة</span>
-                                <span class="price-amount">@hotel.Price <span class="price-currency">جنيه</span></span>
-                            </div>
+                           
 
                             <div class="hotel-footer">
-                                <a href="@Url.Action("Transports", "Home", new { tripid = tripId, email = email, hotel = hotel.Name })"
+                                <a href="@Url.Action("HotelRooms", "Home", new { tripid = tripId, email = email, hotel = hotel.Name,hotelId=hotel.Id })"
                                    class="btn-select">
                                     <i class="fas fa-check-circle"></i>
                                     اختيار هذا الفندق

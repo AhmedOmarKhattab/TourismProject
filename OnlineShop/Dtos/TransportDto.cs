@@ -1,4 +1,4 @@
-﻿namespace OnlineShop.Dtos
+﻿namespace Tourism_Project.Dtos
 {
     public class TransportDto
     {

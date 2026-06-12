@@ -1,4 +1,4 @@
-﻿namespace OnlineShop.Models
+﻿namespace Tourism_Project.Models
 {
     public class booking
     {
@@ -12,6 +12,7 @@
         public string hotel { get; set; } = string.Empty;
         public Nullable<System.DateTime> date { get; set; }
         public string transport { get; set; }
+        public string RoomName { get; set; }=string.Empty;
 
 
     }

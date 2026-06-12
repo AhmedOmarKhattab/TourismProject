@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace OnlineShop.Models
+namespace Tourism_Project.Models
 {
     public class OrderItem
     {

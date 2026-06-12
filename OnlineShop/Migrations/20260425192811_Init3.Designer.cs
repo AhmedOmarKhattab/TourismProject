@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using OnlineShop.Data;
+using Tourism_Project.Data;
 
 #nullable disable
 
-namespace OnlineShop.Migrations
+namespace Tourism_Project.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20260425192811_Init3")]
@@ -158,7 +158,7 @@ namespace OnlineShop.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("OnlineShop.Models.ApplicationUser", b =>
+            modelBuilder.Entity("Tourism_Project.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -234,7 +234,7 @@ namespace OnlineShop.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
-            modelBuilder.Entity("OnlineShop.Models.Hotel", b =>
+            modelBuilder.Entity("Tourism_Project.Models.Hotel", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -259,7 +259,7 @@ namespace OnlineShop.Migrations
                     b.ToTable("Hotels");
                 });
 
-            modelBuilder.Entity("OnlineShop.Models.Trip", b =>
+            modelBuilder.Entity("Tourism_Project.Models.Trip", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -316,7 +316,7 @@ namespace OnlineShop.Migrations
                     b.ToTable("Trips");
                 });
 
-            modelBuilder.Entity("OnlineShop.Models.booking", b =>
+            modelBuilder.Entity("Tourism_Project.Models.booking", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -358,7 +358,7 @@ namespace OnlineShop.Migrations
                     b.ToTable("bookings");
                 });
 
-            modelBuilder.Entity("OnlineShop.Models.customer", b =>
+            modelBuilder.Entity("Tourism_Project.Models.customer", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -391,7 +391,7 @@ namespace OnlineShop.Migrations
                     b.ToTable("customers");
                 });
 
-            modelBuilder.Entity("OnlineShop.Models.guid", b =>
+            modelBuilder.Entity("Tourism_Project.Models.guid", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -416,7 +416,7 @@ namespace OnlineShop.Migrations
                     b.ToTable("guids");
                 });
 
-            modelBuilder.Entity("OnlineShop.Models.opin", b =>
+            modelBuilder.Entity("Tourism_Project.Models.opin", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -448,7 +448,7 @@ namespace OnlineShop.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("OnlineShop.Models.ApplicationUser", null)
+                    b.HasOne("Tourism_Project.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -457,7 +457,7 @@ namespace OnlineShop.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("OnlineShop.Models.ApplicationUser", null)
+                    b.HasOne("Tourism_Project.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -472,7 +472,7 @@ namespace OnlineShop.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("OnlineShop.Models.ApplicationUser", null)
+                    b.HasOne("Tourism_Project.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -481,7 +481,7 @@ namespace OnlineShop.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("OnlineShop.Models.ApplicationUser", null)
+                    b.HasOne("Tourism_Project.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

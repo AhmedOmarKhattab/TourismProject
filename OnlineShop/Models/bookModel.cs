@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace OnlineShop.Models
+namespace Tourism_Project.Models
 {
     public class bookModel
     {
@@ -30,5 +30,6 @@ namespace OnlineShop.Models
         public string idcard { get; set; }
         public Nullable<int> tripid { get; set; }
         public string phone { get; set; }
+        public string RoomName { get; set; }
     }
 }

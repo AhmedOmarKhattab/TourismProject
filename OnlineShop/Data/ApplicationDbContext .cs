@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using OnlineShop.Models;
+using Tourism_Project.Models;
 
-namespace OnlineShop.Data
+namespace Tourism_Project.Data
 {
     public class ApplicationDbContext:IdentityDbContext<ApplicationUser>
     {
@@ -18,6 +18,7 @@ namespace OnlineShop.Data
         public  DbSet<opin> opins { get; set; }
         public DbSet<Hotel> Hotels { get; set; }
         public DbSet<Transportaion> Transportaions { get; set; }
+        public DbSet<HotelRoom> HotelRooms { get; set; }
 
 
     }

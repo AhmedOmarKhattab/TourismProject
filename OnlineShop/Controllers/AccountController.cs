@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OnlineShop.Models;
+using Tourism_Project.Models;
 
-namespace OnlineShop.Controllers
+namespace Tourism_Project.Controllers
 {
     public class AccountController : Controller
     {

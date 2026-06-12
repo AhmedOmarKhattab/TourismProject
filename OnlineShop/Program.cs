@@ -2,13 +2,13 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
-using OnlineShop.Data;
-using OnlineShop.Extensions;
-using OnlineShop.Models;
-using OnlineShop.Services;
+using Tourism_Project.Data;
+using Tourism_Project.Extensions;
+using Tourism_Project.Models;
+using Tourism_Project.Services;
 using System.Threading.Tasks;
 
-namespace OnlineShop
+namespace Tourism_Project
 {
     public class Program
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace OnlineShop.Models
+namespace Tourism_Project.Models
 {
     public class allproject
     {
@@ -33,6 +33,8 @@ namespace OnlineShop.Models
         public string image { get; set; }
         public string type { get; set; }
         public string opin1 { get; set; }
+        public string roomName { get; set; }
 
-    }
+
+	}
 }

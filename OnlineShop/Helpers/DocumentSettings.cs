@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace OnlineShop.Helpers
+namespace Tourism_Project.Helpers
 {
     public static class DocumentSettings
     {

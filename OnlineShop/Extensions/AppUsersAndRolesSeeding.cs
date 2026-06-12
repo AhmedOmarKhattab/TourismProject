@@ -1,10 +1,10 @@
 ﻿
 
 using Microsoft.AspNetCore.Identity;
-using OnlineShop.Models;
+using Tourism_Project.Models;
 using System.Runtime.CompilerServices;
 
-namespace OnlineShop.Extensions
+namespace Tourism_Project.Extensions
 {
     public static class AppUsersAndRolesSeeding
     {

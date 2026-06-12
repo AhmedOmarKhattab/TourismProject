@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Tourism_Project.Models.HotelRoom>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var hotelId = ViewBag.HotelId as int? ?? 0;
+    var hotelName = ViewBag.HotelName as string ?? "الفندق";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3" dir="rtl">
+    <h3>غرف @hotelName</h3>
+    <a asp-action="Index" class="btn btn-secondary">رجوع</a>
+</div>
+
+<!-- ===== Rooms Table ===== -->
+@if (!Model.Any())
+{
+    <div class="alert alert-info" dir="rtl">لا توجد غرف مضافة لهذا الفندق بعد.</div>
+}
+else
+{
+    <table class="table table-bordered" dir="rtl">
+        <thead class="table-dark">
+            <tr>
+                <th>اسم الغرفة</th>
+                <th>الوصف</th>
+                <th>السعر</th>
+                <th>الصورة</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var room in Model)
+            {
+                <tr>
+                    <td>@room.Name</td>
+                    <td>@room.Description</td>
+                    <td>@room.Price.ToString("C")</td>
+                    <td>
+                        <img src="~/files/SiteImages/@room.ImageUrl"
+                             width="70" height="70" alt="Room Image" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<hr />
+
+<!-- ===== Add Room Form ===== -->
+<h4 class="mt-4" dir="rtl">إضافة غرفة جديدة</h4>
+<form asp-action="CreateRoom" method="post"
+      enctype="multipart/form-data" dir="rtl">
+
+    <!-- Hidden: bind the room to this hotel -->
+    <input type="hidden" name="HotelId" value="@hotelId" />
+
+    <div class="form-group mb-2">
+        <label>اسم الغرفة</label>
+        <input type="text" name="Name" class="form-control" required />
+    </div>
+
+    <div class="form-group mb-2">
+        <label>الوصف</label>
+        <textarea name="Description" class="form-control" rows="3"></textarea>
+    </div>
+
+    <div class="form-group mb-2">
+        <label>السعر</label>
+        <input type="number" name="Price" step="0.01"
+               class="form-control" required />
+    </div>
+
+    <div class="form-group mb-3">
+        <label>صورة الغرفة</label>
+        <input type="file" name="ImageUrl" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">إضافة الغرفة</button>
+</form>

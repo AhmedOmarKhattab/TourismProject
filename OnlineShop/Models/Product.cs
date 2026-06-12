@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 
-namespace OnlineShop.Models
+namespace Tourism_Project.Models
 {
     public class Product
     {

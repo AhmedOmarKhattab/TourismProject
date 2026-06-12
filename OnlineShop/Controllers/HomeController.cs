@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using OnlineShop.Data;
-using OnlineShop.Models;
+using Tourism_Project.Data;
+using Tourism_Project.Models;
 using Stripe;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Threading.Tasks;
 
 namespace toursm.Controllers
 {
@@ -235,7 +236,7 @@ namespace toursm.Controllers
             return View(b);
         }
         public ActionResult booking(int tripid, string mess = "",
-            string email = "",string hotel="",string transport="")
+            string email = "",string hotel="",string roomName="",string transport="")
         {
             allproject b = new allproject();
             if (email != "")
@@ -256,6 +257,8 @@ namespace toursm.Controllers
             b.city = v.city;
             b.tiketprice = v.tiketprice;
             b.transport=transport;
+            b.roomName = roomName;
+            
             
 
             return View(b);
@@ -272,6 +275,7 @@ namespace toursm.Controllers
             b.hotel= bookModel.hotel;
             b.travelerNo = bookModel.travelerNo;
             b.transport = bookModel.transport;
+            b.RoomName = bookModel.RoomName;
            if(_context.customers.Where(x=>x.email==bookModel.email).SingleOrDefault()==null)
             {
                 return RedirectToAction("booking", new { mess="الايميل الذى ادخلته غير صحيح", tripid = bookModel.Id,email=bookModel.email });
@@ -348,15 +352,32 @@ namespace toursm.Controllers
         }
 
         public IActionResult Transports(int tripid, string mess = ""
-            , string email = "",string hotel="")
+            , string email = "",string hotel="",string roomName="")
         {
             ViewBag.tripid = tripid;
             ViewBag.email = email;
             ViewBag.hotel = hotel;
+            ViewBag.roomName = roomName;
 
-            var hotels = _context.Transportaions.ToList();
-            return View(hotels);
+
+            var transprots = _context.Transportaions.ToList();
+            return View(transprots);
         }
+        public async Task<IActionResult> HotelRooms(int tripid,int hotelId, string mess = ""
+            , string email = "", string hotel = "")
+        {
+            var rooms = await _context.HotelRooms
+                .Where(c => c.HotelId == hotelId)
+                .ToListAsync();
+            ViewBag.tripid = tripid;
+            ViewBag.email = email;
+            ViewBag.hotel = hotel;
+
+            return View(rooms);
+
+
+        }
+
 
     }
 }

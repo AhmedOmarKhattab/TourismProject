@@ -3,9 +3,9 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using OnlineShop.Data;
-using OnlineShop.Extensions;
-using OnlineShop.Models;
+using Tourism_Project.Data;
+using Tourism_Project.Extensions;
+using Tourism_Project.Models;
 
 namespace BrightMinds.Api.Extensions
 {
@@ -96,36 +96,41 @@ namespace BrightMinds.Api.Extensions
         Name = "فندق قصر الشرق",
         Description = "تجربة إقامة ملكية فاخرة في قلب المدينة مع إطلالات بانورامية خلابة وخدمات متميزة على مدار الساعة.",
         ImageUrl = "hotel1.jpg",
-        Price=5000
+        Location="Maadi"
     },
     new Hotel
     {
         Name = "منتجع شاطئ الياقوت",
         Description = "اهرب من ضجيج المدينة واستمتع بالهدوء على شواطئنا الخاصة والرمال الذهبية والمياه الفيروزية.",
         ImageUrl = "hotel2.webp",
-        Price=8000
-    },
+		Location="Nassr City"
+
+	},
     new Hotel
     {
         Name = "فندق نسمة الجبل",
         Description = "يقع وسط الجبال الخضراء، ويوفر أجواءً هادئة ومثالية لمحبي الطبيعة والمغامرات الجبلية.",
-        ImageUrl = "hotel3.webp"
-    },
+        ImageUrl = "hotel3.webp",
+		Location="Smouha"
+
+	},
     new Hotel
     {
         Name = "فندق الواحة التراثي",
         Description = "فندق يجمع بين عبق الماضي وتصاميم التراث العربي الأصيل مع توفير كافة سبل الراحة الحديثة.",
         ImageUrl = "hotel4.jpg",
-        Price=7500
-    },
+		Location="New Giza"
+
+	},
     new Hotel
     {
         Name = "أجنحة المدينة العصرية",
         Description = "خيار مثالي لرجال الأعمال والمسافرين، يتميز بموقع استراتيجي بالقرب من المركز التجاري والمطار.",
         ImageUrl = "hotel1.jpg",
-        Price=3000
+		Location="Agami"
 
-    }
+
+	}
 };
 
                 context.AddRange(hotels);
@@ -172,6 +177,36 @@ namespace BrightMinds.Api.Extensions
                 context.AddRange(transportList);
                 await context.SaveChangesAsync();
             }
+            if(!context.HotelRooms.Any())
+            {
+				var ids = await context.Hotels
+							.Select(h => h.Id)
+							.ToListAsync();
+
+				// Assuming you have your list of IDs
+				List<int> hotelIds = await context.Hotels.Select(h => h.Id).ToListAsync();
+
+				// Create a list to hold the new rooms
+				var roomsToCreate = new List<HotelRoom>();
+
+				// Loop through each Hotel ID
+				foreach (var id in hotelIds)
+				{
+					// Add a batch of rooms for each specific Hotel
+					roomsToCreate.Add(new HotelRoom { HotelId = id, Name = "غرفة قياسية", Description = "غرفة مريحة ومناسبة للإقامة القصيرة", Price = 500m, ImageUrl = "room1.jpg" });
+					roomsToCreate.Add(new HotelRoom { HotelId = id, Name = "غرفة ديلوكس", Description = "غرفة واسعة مع إطلالة رائعة", Price = 850m, ImageUrl = "room2.jpg" });
+					roomsToCreate.Add(new HotelRoom { HotelId = id, Name = "جناح عائلي", Description = "جناح مثالي للعائلات", Price = 1200m, ImageUrl = "room3.avif" });
+					roomsToCreate.Add(new HotelRoom { HotelId = id, Name = "غرفة مطلة على البحر", Description = "منظر بحر مباشر", Price = 950m, ImageUrl = "room4.webp" });
+					roomsToCreate.Add(new HotelRoom { HotelId = id, Name = "جناح ملكي", Description = "فخامة لا تضاهى", Price = 2500m, ImageUrl = "room5.jpg" });
+					roomsToCreate.Add(new HotelRoom { HotelId = id, Name = "غرفة اقتصادية", Description = "خيار اقتصادي ممتاز", Price = 350m, ImageUrl = "room6.jpg" });
+				}
+
+				// Add the list to the context and save changes
+				await context.HotelRooms.AddRangeAsync(roomsToCreate);
+				await context.SaveChangesAsync();
+
+			}
+
 
 
             return application;

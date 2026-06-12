@@ -4,6 +4,7 @@
     var tripId = ViewBag.tripid != null ? ViewBag.tripid.ToString() : "0";
     var email = ViewBag.email != null ? ViewBag.email.ToString() : "";
     var hotel = ViewBag.hotel != null ? ViewBag.hotel.ToString() : "";
+    var roomName = ViewBag.roomName != null ? ViewBag.roomName.ToString() : "";
 
 }
 
@@ -305,14 +306,14 @@
     <div class="page-banner">
         <div class="page-banner-inner">
             <span class="section-label">اختر فندقك</span>
-            <h1>الفنادق المتاحة</h1>
-            <p>اختر الفندق المناسب لرحلتك واستمتع بإقامة مريحة ولا تُنسى</p>
+            <h1> الوسائل المتاحة</h1>
+            <p>اختر وسيلة المناسب لرحلتك واستمتع برحلة مريحة ولا تُنسى</p>
             <div class="breadcrumb-row">
                 <a href="../Home/Index?email=@email">الرئيسية</a>
                 <i class="fas fa-chevron-left"></i>
                 <a href="../Home/alltrips?email=@email">الرحلات</a>
                 <i class="fas fa-chevron-left"></i>
-                <span>اختيار الفندق</span>
+                <span>اختيار الوسيلة</span>
             </div>
         </div>
     </div>
@@ -320,7 +321,7 @@
     <div class="hotels-content">
 
         <div class="hotels-count">
-            عرض <span>@Model.Count</span> فندق متاح
+            عرض <span>@Model.Count</span> وسيلة متاح
         </div>
 
         <div class="hotels-grid">
@@ -329,7 +330,7 @@
             {
                 <div class="empty-state">
                     <i class="fas fa-hotel"></i>
-                    <h3>لا توجد فنادق متاحة حالياً</h3>
+                    <h3>لا توجد وسائل متاحة حالياً</h3>
                     <p>يرجى المحاولة مرة أخرى لاحقاً</p>
                 </div>
             }
@@ -357,7 +358,7 @@
                             </div>
 
                             <div class="hotel-footer">
-                                <a href="@Url.Action("booking", "Home", new { tripid = tripId, email = email, hotel = hotel, transport = transport.Name })"
+                                <a href="@Url.Action("booking", "Home", new { tripid = tripId, email = email, hotel = hotel,roomName=roomName, transport = transport.Name })"
                                    class="btn-select">
                                     <i class="fas fa-check-circle"></i>
                                     اختيار هذا الوسيلة

@@ -5,14 +5,14 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using OnlineShop.Data;
+using Tourism_Project.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OnlineShop.Extensions
+namespace Tourism_Project.Extensions
 {
     public class ApplyMigration
     {

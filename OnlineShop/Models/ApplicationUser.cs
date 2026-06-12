@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace OnlineShop.Models
+namespace Tourism_Project.Models
 {
     public class ApplicationUser:IdentityUser
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using OnlineShop.Models;
+using Tourism_Project.Models;
 
-namespace OnlineShop.Controllers
+namespace Tourism_Project.Controllers
 {
     public class UserController : Controller
     {
