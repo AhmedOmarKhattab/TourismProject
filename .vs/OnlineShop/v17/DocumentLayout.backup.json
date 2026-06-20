@@ -3,64 +3,36 @@
   "WorkspaceRootPath": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\createhotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\admin\\createhotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\alltrips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\alltrips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\bookinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\bookinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\hotelrooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\hotelrooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\transports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\transports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\guids.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\guids.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\hotels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\hotels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\booklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\booklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\hotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\admin\\hotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\gethotelrooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\admin\\gethotelrooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260612182719_AddRoomNameToBooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop\\Migrations\\20260612182719_AddRoomNameToBooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\booklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\booklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\extensions\\dataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\extensions\\dataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\dtos\\hoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\dtos\\hoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\hotelrooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\hotelrooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\dtos\\hotelroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,210 +43,238 @@
       "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\hotelroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\hotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\hotelindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\guidlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\guidlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\createtransport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\createtransport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\extensions\\appusersandrolesseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\extensions\\appusersandrolesseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260612174003_AddHotelRooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop\\Migrations\\20260612174003_AddHotelRooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260612173840_AddHotelRooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop\\Migrations\\20260612173840_AddHotelRooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260612173755_AddHotelRooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OnlineShop\\Migrations\\20260612173755_AddHotelRooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\dtos\\transportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\dtos\\transportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\dtos\\hoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\dtos\\hoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\transportationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\transportationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\transportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\transportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\allproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\allproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\tripdetials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\tripdetials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\createhotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\createhotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\addtrip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\addtrip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmmm\\AppData\\Local\\Temp\\w1ii4i4g..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\migrations\\20260425113406_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\migrations\\20260425113406_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\opinlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\opinlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\opin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\home\\opin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\triplist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\views\\admin\\triplist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\triplist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\triplist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\guidlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\guidlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\guid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\guid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\opin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\opin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\tourism_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\tourism_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.datatables.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.datatables.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\migrations\\20260425201208_addtransportaion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\migrations\\20260425201208_addtransportaion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\hotels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\hotels.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\migrations\\20260425195713_addtransportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\migrations\\20260425195713_addtransportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\bookinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\bookinglist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\migrations\\20260425192811_init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\migrations\\20260425192811_init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\booking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\migrations\\20260425162631_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\OnlineShop.csproj|solutionrelative:onlineshop\\migrations\\20260425162631_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\alltrips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\alltrips.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\shared\\_layouthome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\transports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\transports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\guids.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\guids.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\booklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\admin\\booklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\migrations\\20260612182719_addroomnametobooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\migrations\\20260612182719_addroomnametobooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\booklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\booklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\extensions\\dataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\extensions\\dataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\guidlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\admin\\guidlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\createtransport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\admin\\createtransport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\extensions\\appusersandrolesseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\extensions\\appusersandrolesseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\migrations\\20260612174003_addhotelrooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\migrations\\20260612174003_addhotelrooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\data\\applicationdbcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\migrations\\20260425201208_addtransportaion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\migrations\\20260425201208_addtransportaion2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\dtos\\transportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\dtos\\transportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\transportationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\admin\\transportationindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\migrations\\20260425195713_addtransportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\migrations\\20260425195713_addtransportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\transportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\transportaion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\migrations\\20260425192811_init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\migrations\\20260425192811_init3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\allproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\allproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\tripdetials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\tripdetials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\admin\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\migrations\\20260425162631_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\migrations\\20260425162631_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\addtrip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\admin\\addtrip.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\migrations\\20260425113406_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\migrations\\20260425113406_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\opin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\opin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\opinlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\opinlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\home\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\views\\admin\\triplist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\views\\admin\\triplist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\triplist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\triplist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\bookmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\guidlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\guidlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\opin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\opin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\guid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\guid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|d:\\projects\\c# projects\\core projects\\apis\\new folder (8)\\tourismproject\\onlineshop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.datatables.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6633A8C-1BF2-4FD0-9E49-9295CD4DC82C}|OnlineShop\\Tourism_Project.csproj|solutionrelative:onlineshop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.datatables.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -284,11 +284,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 15,
               "Title": "site.css",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "OnlineShop\\wwwroot\\css\\site.css",
@@ -301,202 +301,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Controllers\\HomeController.cs",
               "RelativeToolTip": "OnlineShop\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAIBAAAAAAAAAAApwB0BAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAMBAAAAAAAAAAApwAsBAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-25T11:09:48.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HotelRooms.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\HotelRooms.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\HotelRooms.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\HotelRooms.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\home\\HotelRooms.cshtml",
-              "ViewState": "AgIAADsBAAAAAAAAAAAAAEYBAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-12T18:37:26.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GetHotelRooms.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\GetHotelRooms.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\GetHotelRooms.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\GetHotelRooms.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\admin\\GetHotelRooms.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwB8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-12T18:11:59.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Hotels.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Hotels.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Hotels.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Hotels.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\home\\Hotels.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T18:48:30.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "bookingList.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\bookingList.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\bookingList.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\bookingList.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\home\\bookingList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:29:28.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "booking.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\booking.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\booking.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\booking.cshtml*",
-              "RelativeToolTip": "OnlineShop\\Views\\home\\booking.cshtml*",
-              "ViewState": "AgIAAB8CAAAAAAAAAAAAACcCAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:29:25.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "alltrips.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\alltrips.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\alltrips.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\alltrips.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\home\\alltrips.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:29:16.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_LayoutHome.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:45:27.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Transports.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Transports.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Transports.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Transports.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\home\\Transports.cshtml",
-              "ViewState": "AgIAADABAAAAAAAAAAAYwDUBAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T20:12:53.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Guids.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Guids.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Guids.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Guids.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\home\\Guids.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:29:31.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "bookList.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\bookList.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\bookList.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\bookList.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\admin\\bookList.cshtml",
-              "ViewState": "AgIAADoAAAAAAAAAAAAwwEgAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:28:40.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20260612182719_AddRoomNameToBooking.cs",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260612182719_AddRoomNameToBooking.cs",
-              "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260612182719_AddRoomNameToBooking.cs",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260612182719_AddRoomNameToBooking.cs",
-              "RelativeToolTip": "OnlineShop\\Migrations\\20260612182719_AddRoomNameToBooking.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T18:27:19.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "booklist.cs",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\booklist.cs",
-              "RelativeDocumentMoniker": "OnlineShop\\Models\\booklist.cs",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\booklist.cs",
-              "RelativeToolTip": "OnlineShop\\Models\\booklist.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA0wAUAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:16:12.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DataSeeding.cs",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Extensions\\DataSeeding.cs",
-              "RelativeDocumentMoniker": "OnlineShop\\Extensions\\DataSeeding.cs",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Extensions\\DataSeeding.cs",
-              "RelativeToolTip": "OnlineShop\\Extensions\\DataSeeding.cs",
-              "ViewState": "AgIAALgAAAAAAAAAAAA3wMUAAACUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T20:37:24.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "guidList.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\guidList.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\guidList.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\guidList.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\admin\\guidList.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:28:49.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "Hotel.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\Hotel.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\Hotel.cs",
@@ -509,7 +327,228 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "adminController.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Controllers\\adminController.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Controllers\\adminController.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Controllers\\adminController.cs*",
+              "RelativeToolTip": "OnlineShop\\Controllers\\adminController.cs*",
+              "ViewState": "AgIAAIUAAAAAAAAAAADwv5AAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:05:58.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HotelDto.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Dtos\\HotelDto.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Dtos\\HotelDto.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Dtos\\HotelDto.cs*",
+              "RelativeToolTip": "OnlineShop\\Dtos\\HotelDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:20:32.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateHotel.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\CreateHotel.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\CreateHotel.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\CreateHotel.cshtml*",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\CreateHotel.cshtml*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T16:24:26.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetHotelRooms.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\GetHotelRooms.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\GetHotelRooms.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\GetHotelRooms.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\GetHotelRooms.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwB8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-12T18:11:59.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HotelIndex.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\HotelIndex.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\HotelIndex.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\HotelIndex.cshtml*",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\HotelIndex.cshtml*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T16:17:48.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "alltrips.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\alltrips.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\alltrips.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\alltrips.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\alltrips.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:16.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HotelRooms.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\HotelRooms.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\HotelRooms.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\HotelRooms.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\HotelRooms.cshtml",
+              "ViewState": "AgIAADsBAAAAAAAAAAAAAEYBAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-12T18:37:26.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "booking.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\booking.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\booking.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\booking.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\booking.cshtml",
+              "ViewState": "AgIAAB8CAAAAAAAAAAAAACcCAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:25.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "bookingList.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\bookingList.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\bookingList.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\bookingList.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\bookingList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:28.926Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "Hotels.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Hotels.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Hotels.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Hotels.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\Hotels.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T18:48:30.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_LayoutHome.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\shared\\_LayoutHome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:45:27.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Transports.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Transports.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Transports.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Transports.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\Transports.cshtml",
+              "ViewState": "AgIAADABAAAAAAAAAAAYwDUBAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T20:12:53.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Guids.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Guids.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Guids.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Guids.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\home\\Guids.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:29:31.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "bookList.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\bookList.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\bookList.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\bookList.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\bookList.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwEgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:28:40.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20260612182719_AddRoomNameToBooking.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260612182719_AddRoomNameToBooking.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260612182719_AddRoomNameToBooking.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260612182719_AddRoomNameToBooking.cs",
+              "RelativeToolTip": "OnlineShop\\Migrations\\20260612182719_AddRoomNameToBooking.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T18:27:19.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "booklist.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\booklist.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Models\\booklist.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\booklist.cs",
+              "RelativeToolTip": "OnlineShop\\Models\\booklist.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wAUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T11:16:12.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DataSeeding.cs",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Extensions\\DataSeeding.cs",
+              "RelativeDocumentMoniker": "OnlineShop\\Extensions\\DataSeeding.cs",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Extensions\\DataSeeding.cs",
+              "RelativeToolTip": "OnlineShop\\Extensions\\DataSeeding.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAA3wMUAAACUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T20:37:24.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "guidList.cshtml",
+              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\guidList.cshtml",
+              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\guidList.cshtml",
+              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\guidList.cshtml",
+              "RelativeToolTip": "OnlineShop\\Views\\admin\\guidList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T11:28:49.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "HotelRoom.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\HotelRoom.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\HotelRoom.cs",
@@ -517,38 +556,11 @@
               "RelativeToolTip": "OnlineShop\\Models\\HotelRoom.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:33:59.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T17:33:59.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "adminController.cs",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Controllers\\adminController.cs",
-              "RelativeDocumentMoniker": "OnlineShop\\Controllers\\adminController.cs",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Controllers\\adminController.cs",
-              "RelativeToolTip": "OnlineShop\\Controllers\\adminController.cs",
-              "ViewState": "AgIAAMsAAAAAAAAAAAA1wN0AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:05:58.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HotelIndex.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\HotelIndex.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\HotelIndex.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\HotelIndex.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\admin\\HotelIndex.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T16:17:48.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
               "Title": "HotelRoomDto.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Dtos\\HotelRoomDto.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Dtos\\HotelRoomDto.cs",
@@ -556,12 +568,11 @@
               "RelativeToolTip": "OnlineShop\\Dtos\\HotelRoomDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T18:17:15.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T18:17:15.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "CreateTransport.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\CreateTransport.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\CreateTransport.cshtml",
@@ -569,12 +580,11 @@
               "RelativeToolTip": "OnlineShop\\Views\\admin\\CreateTransport.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T20:06:03.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T20:06:03.94Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "AppUsersAndRolesSeeding.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Extensions\\AppUsersAndRolesSeeding.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Extensions\\AppUsersAndRolesSeeding.cs",
@@ -582,12 +592,11 @@
               "RelativeToolTip": "OnlineShop\\Extensions\\AppUsersAndRolesSeeding.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIA2wAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T17:52:12.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T17:52:12.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "20260612174003_AddHotelRooms.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260612174003_AddHotelRooms.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260612174003_AddHotelRooms.cs",
@@ -595,12 +604,11 @@
               "RelativeToolTip": "OnlineShop\\Migrations\\20260612174003_AddHotelRooms.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:40:03.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T17:40:03.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 10,
               "Title": "20260612173840_AddHotelRooms.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260612173840_AddHotelRooms.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260612173840_AddHotelRooms.cs",
@@ -608,12 +616,11 @@
               "RelativeToolTip": "OnlineShop\\Migrations\\20260612173840_AddHotelRooms.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA0wBkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:38:41.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T17:38:41.05Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 11,
               "Title": "20260612173755_AddHotelRooms.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260612173755_AddHotelRooms.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260612173755_AddHotelRooms.cs",
@@ -621,12 +628,11 @@
               "RelativeToolTip": "OnlineShop\\Migrations\\20260612173755_AddHotelRooms.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:37:55.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-12T17:37:55.536Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Controllers\\UserController.cs",
@@ -634,12 +640,11 @@
               "RelativeToolTip": "OnlineShop\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAASwBQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T19:03:05.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T19:03:05.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "ApplicationDbContext .cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Data\\ApplicationDbContext .cs",
               "RelativeDocumentMoniker": "OnlineShop\\Data\\ApplicationDbContext .cs",
@@ -647,12 +652,11 @@
               "RelativeToolTip": "OnlineShop\\Data\\ApplicationDbContext .cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA6wBQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T17:50:46.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T17:50:46.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Index.cshtml",
@@ -660,12 +664,11 @@
               "RelativeToolTip": "OnlineShop\\Views\\home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:29:34.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:29:34.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 34,
               "Title": "20260425201208_AddTransportaion2.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260425201208_AddTransportaion2.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425201208_AddTransportaion2.cs",
@@ -673,12 +676,11 @@
               "RelativeToolTip": "OnlineShop\\Migrations\\20260425201208_AddTransportaion2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T20:12:08.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T20:12:08.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "TransportDto.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Dtos\\TransportDto.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Dtos\\TransportDto.cs",
@@ -686,12 +688,11 @@
               "RelativeToolTip": "OnlineShop\\Dtos\\TransportDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T20:07:08.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T20:07:08.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "TransportationIndex.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\TransportationIndex.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\TransportationIndex.cshtml",
@@ -699,25 +700,11 @@
               "RelativeToolTip": "OnlineShop\\Views\\admin\\TransportationIndex.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T20:05:35.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T20:05:35.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "HotelDto.cs",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Dtos\\HotelDto.cs",
-              "RelativeDocumentMoniker": "OnlineShop\\Dtos\\HotelDto.cs",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Dtos\\HotelDto.cs",
-              "RelativeToolTip": "OnlineShop\\Dtos\\HotelDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:20:32.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 37,
               "Title": "20260425195713_AddTransportaion.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260425195713_AddTransportaion.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425195713_AddTransportaion.cs",
@@ -725,12 +712,11 @@
               "RelativeToolTip": "OnlineShop\\Migrations\\20260425195713_AddTransportaion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T19:57:13.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T19:57:13.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "Transportaion.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\Transportaion.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\Transportaion.cs",
@@ -738,12 +724,11 @@
               "RelativeToolTip": "OnlineShop\\Models\\Transportaion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T19:52:54.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T19:52:54.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\Index.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\Index.cshtml",
@@ -755,7 +740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 40,
               "Title": "20260425192811_Init3.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260425192811_Init3.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425192811_Init3.cs",
@@ -763,12 +748,11 @@
               "RelativeToolTip": "OnlineShop\\Migrations\\20260425192811_Init3.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T19:28:11.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T19:28:11.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_Layout.cshtml",
@@ -780,7 +764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 42,
               "Title": "booking.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\booking.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\booking.cs",
@@ -788,12 +772,11 @@
               "RelativeToolTip": "OnlineShop\\Models\\booking.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA5wAsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:01:00.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:01:00.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "allproject.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\allproject.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\allproject.cs",
@@ -801,12 +784,11 @@
               "RelativeToolTip": "OnlineShop\\Models\\allproject.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:16:19.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:16:19.53Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "customer.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\customer.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\customer.cs",
@@ -814,12 +796,11 @@
               "RelativeToolTip": "OnlineShop\\Models\\customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:01:34.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:01:34.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "_LayoutLogin.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\shared\\_LayoutLogin.cshtml",
@@ -831,7 +812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "tripdetials.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\tripdetials.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\tripdetials.cshtml",
@@ -839,12 +820,11 @@
               "RelativeToolTip": "OnlineShop\\Views\\home\\tripdetials.cshtml",
               "ViewState": "AgIAAPIBAAAAAAAAAAAAAP8BAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:29:54.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:29:54.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 47,
               "Title": "signup.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\signup.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\signup.cshtml",
@@ -852,12 +832,11 @@
               "RelativeToolTip": "OnlineShop\\Views\\home\\signup.cshtml",
               "ViewState": "AgIAAFAAAAAAAAAAAAAgwF4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:29:49.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:29:49.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 48,
               "Title": "login.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\login.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\login.cshtml",
@@ -869,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 49,
               "Title": "userlist.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\userlist.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\userlist.cshtml",
@@ -877,25 +856,11 @@
               "RelativeToolTip": "OnlineShop\\Views\\admin\\userlist.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:29:07.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:29:07.256Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "CreateHotel.cshtml",
-              "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\CreateHotel.cshtml",
-              "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\CreateHotel.cshtml",
-              "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\CreateHotel.cshtml",
-              "RelativeToolTip": "OnlineShop\\Views\\admin\\CreateHotel.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwCQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T16:24:26.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 50,
               "Title": "20260425162631_Init2.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260425162631_Init2.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425162631_Init2.cs",
@@ -903,12 +868,11 @@
               "RelativeToolTip": "OnlineShop\\Migrations\\20260425162631_Init2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T16:26:32.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T16:26:32.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 51,
               "Title": "addtrip.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\addtrip.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\addtrip.cshtml",
@@ -916,12 +880,11 @@
               "RelativeToolTip": "OnlineShop\\Views\\admin\\addtrip.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:28:30.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:28:30.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 52,
               "Title": "style.css",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "OnlineShop\\wwwroot\\css\\style.css",
@@ -933,7 +896,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\appsettings.json",
               "RelativeDocumentMoniker": "OnlineShop\\appsettings.json",
@@ -941,12 +904,11 @@
               "RelativeToolTip": "OnlineShop\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-04T19:08:56.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T19:08:56.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "20260425113406_Init.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Migrations\\20260425113406_Init.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Migrations\\20260425113406_Init.cs",
@@ -954,12 +916,11 @@
               "RelativeToolTip": "OnlineShop\\Migrations\\20260425113406_Init.cs",
               "ViewState": "AgIAAIgAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:34:08.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:34:08.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 55,
               "Title": "Trip.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\Trip.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\Trip.cs",
@@ -967,12 +928,11 @@
               "RelativeToolTip": "OnlineShop\\Models\\Trip.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:02:49.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:02:49.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 12,
               "Title": "w1ii4i4g..sql",
               "DocumentMoniker": "C:\\Users\\ahmmm\\AppData\\Local\\Temp\\w1ii4i4g..sql",
               "ToolTip": "C:\\Users\\ahmmm\\AppData\\Local\\Temp\\w1ii4i4g..sql",
@@ -981,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 56,
               "Title": "opin.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\opin.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\opin.cshtml",
@@ -989,12 +949,11 @@
               "RelativeToolTip": "OnlineShop\\Views\\home\\opin.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:29:39.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:29:39.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 57,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Program.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Program.cs",
@@ -1002,12 +961,11 @@
               "RelativeToolTip": "OnlineShop\\Program.cs",
               "ViewState": "AgIAACMAAAAAAAAAAIA0wC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T21:33:18.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T21:33:18.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 58,
               "Title": "opinList.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\opinList.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\opinList.cshtml",
@@ -1015,12 +973,11 @@
               "RelativeToolTip": "OnlineShop\\Views\\home\\opinList.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:29:42.684Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:29:42.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 59,
               "Title": "Service.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\home\\Service.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\home\\Service.cshtml",
@@ -1028,12 +985,11 @@
               "RelativeToolTip": "OnlineShop\\Views\\home\\Service.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:29:46.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:29:46.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 60,
               "Title": "tripList.cshtml",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Views\\admin\\tripList.cshtml",
               "RelativeDocumentMoniker": "OnlineShop\\Views\\admin\\tripList.cshtml",
@@ -1041,12 +997,11 @@
               "RelativeToolTip": "OnlineShop\\Views\\admin\\tripList.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-25T11:29:00.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:29:00.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "triplist.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\triplist.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\triplist.cs",
@@ -1054,12 +1009,11 @@
               "RelativeToolTip": "OnlineShop\\Models\\triplist.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:23:04.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:23:04.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 62,
               "Title": "bookModel.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\bookModel.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\bookModel.cs",
@@ -1067,12 +1021,11 @@
               "RelativeToolTip": "OnlineShop\\Models\\bookModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:17:45.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:17:45.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 63,
               "Title": "guidList.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\guidList.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\guidList.cs",
@@ -1080,12 +1033,11 @@
               "RelativeToolTip": "OnlineShop\\Models\\guidList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:16:28.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:16:28.449Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 64,
               "Title": "opin.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\opin.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\opin.cs",
@@ -1093,12 +1045,11 @@
               "RelativeToolTip": "OnlineShop\\Models\\opin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:02:26.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:02:26.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 65,
               "Title": "guid.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\guid.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\guid.cs",
@@ -1106,12 +1057,11 @@
               "RelativeToolTip": "OnlineShop\\Models\\guid.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T11:02:02.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T11:02:02.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 66,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\Order.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\Order.cs",
@@ -1119,13 +1069,12 @@
               "RelativeToolTip": "OnlineShop\\Models\\Order.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAuwBoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T13:08:22.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T13:08:22.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "OnlineShop.csproj",
+              "DocumentIndex": 13,
+              "Title": "Tourism_Project.csproj",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Tourism_Project.csproj",
               "RelativeDocumentMoniker": "OnlineShop\\Tourism_Project.csproj",
               "ToolTip": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Tourism_Project.csproj",
@@ -1136,7 +1085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 67,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\Models\\Product.cs",
               "RelativeDocumentMoniker": "OnlineShop\\Models\\Product.cs",
@@ -1144,12 +1093,11 @@
               "RelativeToolTip": "OnlineShop\\Models\\Product.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAUwCIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T17:48:14.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T17:48:14.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 14,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
@@ -1159,7 +1107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 68,
               "Title": "buttons.dataTables.min.css",
               "DocumentMoniker": "D:\\projects\\C# projects\\Core Projects\\Apis\\New folder (8)\\TourismProject\\OnlineShop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.dataTables.min.css",
               "RelativeDocumentMoniker": "OnlineShop\\wwwroot\\lib\\datatables-buttons\\css\\buttons.dataTables.min.css",

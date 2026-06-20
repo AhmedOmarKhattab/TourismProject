@@ -142,6 +142,7 @@ namespace toursm.Controllers
             {
                 Name = hotelDto.Name,
                 Description = hotelDto.Description,
+                Location=hotelDto.Location,
                 ImageUrl = DocumentSettings.UploadImage(hotelDto.ImageUrl, "images")
             };
             _context.Add(hotel);

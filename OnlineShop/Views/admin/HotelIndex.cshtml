@@ -12,6 +12,8 @@
     <tr>
         <th>اسم الفندق</th>
         <th>الوصف</th>
+        <th>الموقغ</th>
+
         <th>الصورة</th>
         <th></th>
     </tr>
@@ -20,6 +22,8 @@
         <tr>
             <td>@Html.DisplayFor(modelItem => item.Name)</td>
             <td>@Html.DisplayFor(modelItem => item.Description)</td>
+            <td>@Html.DisplayFor(modelItem => item.Location)</td>
+
             <td>
                 <img src="~/files/images/@item.ImageUrl"
                      width="70" height="70" alt="Hotel Image" />
